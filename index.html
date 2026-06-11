@@ -92,6 +92,10 @@
         // 5. Tell the slider to trigger the magic function
         document.getElementById('slider').addEventListener('input', function(e) {
             updateMap(parseInt(e.target.value));
+            // Force reload the page ignoring cache when the button is clicked
+        document.getElementById('sync-btn').addEventListener('click', function() {
+            window.location.reload(true); 
+        });
         });
     </script>
 </body>
