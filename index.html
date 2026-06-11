@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>R&F Live Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        /* The aesthetic styling */
+        body { margin: 0; padding: 0; background-color: #1a1a1a; color: white; font-family: sans-serif; }
+        #map { height: 90vh; width: 100vw; }
+        #controls { height: 10vh; display: flex; align-items: center; justify-content: center; background: #111; border-top: 2px solid #333; }
+        #slider { width: 60%; margin: 0 20px; cursor: pointer; }
+        .label { font-size: 1.5rem; font-weight: bold; width: 150px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    
+    <div id="controls">
+        <div class="label" id="tick-display">Tick: 1</div>
+        <input type="range" id="slider" min="1" max="10" value="1" step="1">
+    </div>
 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // 1. Initialize the map (Centered over the Mediterranean for now)
+        var map = L.map('map').setView([40.0, 15.0], 4);
+
+        // 2. dark & text-free base layer for that war-room vibe or sum
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; Carto',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }).addTo(map);
+
+        var geojsonLayer;
+        var mapData;
+
+        // 3. Fetch custom data
+        fetch('data.geojson')
+            .then(response => response.json())
+            .then(data => {
+                mapData = data;
+                
+                // Automatically set the slider's maximum to your highest tick
+                let maxTick = 1;
+                data.features.forEach(f => {
+                    if (f.properties.end_tick > maxTick) maxTick = f.properties.end_tick;
+                });
+                document.getElementById('slider').max = maxTick;
+
+                // Draw the map for Tick 1
+                updateMap(1); 
+            });
+
+        // 4. filter borders by time
+        function updateMap(tick) {
+            document.getElementById('tick-display').innerText = "Tick: " + tick;
+            
+            // Clear the old borders
+            if (geojsonLayer) {
+                map.removeLayer(geojsonLayer);
+            }
+
+            // Filter out any borders that shouldn't exist in the current tick
+            var filteredData = {
+                "type": "FeatureCollection",
+                "features": mapData.features.filter(f => 
+                    tick >= f.properties.start_tick && tick <= f.properties.end_tick
+                )
+            };
+
+            // Draw the new borders
+            geojsonLayer = L.geoJSON(filteredData, {
+                style: function(feature) {
+                    return {
+                        color: feature.properties.color || "#ffaa00", // Default color
+                        weight: 2,
+                        opacity: 1,
+                        fillOpacity: 0.3
+                    };
+                },
+                onEachFeature: function(feature, layer) {
+                    // Adds a popup when a player clicks on their nation
+                    if (feature.properties && feature.properties.name) {
+                        layer.bindPopup("<h3 style='color:black; margin:0;'>" + feature.properties.name + "</h3>");
+                    }
+                }
+            }).addTo(map);
+        }
+
+        // 5. Tell the slider to trigger the magic function
+        document.getElementById('slider').addEventListener('input', function(e) {
+            updateMap(parseInt(e.target.value));
+        });
+    </script>
+</body>
+</html>
