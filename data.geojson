@@ -7,7 +7,12 @@
         "name": "The Roman Republic",
         "color": "#91150c",
         "start_tick": 1,
-        "end_tick": 5
+        "end_tick": 5,
+        "fill-opacity": 0.3,
+        "stroke": "#91150c",
+        "stroke-opacity": 0.8,
+        "fill": "#91150c",
+        "stroke-width": 2
       },
       "geometry": {
         "type": "Polygon",
