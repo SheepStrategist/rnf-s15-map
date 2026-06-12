@@ -27,7 +27,7 @@
         var map = L.map('map').setView([40.0, 15.0], 4);
 
         // 2. Custom QGIS Base Layer
-        L.tileLayer('tiles/{z}/{x}/{y}.jpg', { // Make sure 'tiles' perfectly matches your folder name!
+        L.tileLayer('tiles/{z}/{x}/{y}.jpg', {
             minZoom: 0,
             maxZoom: 8, 
             noWrap: true, // This stops the map from infinitely duplicating left and right
