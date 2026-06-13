@@ -23,50 +23,56 @@
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
-        // 1. Initialize the map (Centered over the Mediterranean for now)
+        // 1. Initialize the map
         var map = L.map('map').setView([40.0, 15.0], 4);
 
         // 2. Custom QGIS Base Layer
         L.tileLayer('tiles/{z}/{x}/{y}.jpg', {
             minZoom: 0,
             maxZoom: 8, 
-            noWrap: true, // This stops the map from infinitely duplicating left and right
+            noWrap: true, 
             bounds: [
-                [-90, -180], // Southwest corner
-                [90, 180]    // Northeast corner
+                [-90, -180], 
+                [90, 180]    
             ]
         }).addTo(map);
+
+        // --- NEW: Custom Marker Dictionary ---
+        // This tells the map exactly where to look in your GitHub repository for the images
+        var customIcons = {
+            "capital": L.icon({ iconUrl: 'art/Capital_Icon.png', iconSize: [30, 30], iconAnchor: [15, 30], popupAnchor: [0, -30] }),
+            "city": L.icon({ iconUrl: 'art/City_Icon.png', iconSize: [20, 20], iconAnchor: [10, 20], popupAnchor: [0, -20] }),
+            "wonder": L.icon({ iconUrl: 'art/Wonder_Icon.png', iconSize: [35, 35], iconAnchor: [17, 35], popupAnchor: [0, -35] }),
+            "holy_site": L.icon({ iconUrl: 'art/HolySite_Icon.png', iconSize: [25, 25], iconAnchor: [12, 25], popupAnchor: [0, -25] }),
+            "chokepoint": L.icon({ iconUrl: 'art/Chokepoint_Icon.png', iconSize: [30, 30], iconAnchor: [15, 30], popupAnchor: [0, -30] })
+        };
         
         var geojsonLayer;
         var mapData;
 
-        // 3. Fetch custom data
-        fetch('data.geojson')
+        // 3. Fetch custom data (with cache-busting restored!)
+        fetch('data.geojson?nocache=' + new Date().getTime())
             .then(response => response.json())
             .then(data => {
                 mapData = data;
                 
-                // Automatically set the slider's maximum to your highest tick
                 let maxTick = 1;
                 data.features.forEach(f => {
                     if (f.properties.end_tick > maxTick) maxTick = f.properties.end_tick;
                 });
                 document.getElementById('slider').max = maxTick;
 
-                // Draw the map for Tick 1
                 updateMap(1); 
             });
 
-        // 4. filter borders by time
+        // 4. Filter and Draw
         function updateMap(tick) {
             document.getElementById('tick-display').innerText = "Tick: " + tick;
             
-            // Clear the old borders
             if (geojsonLayer) {
                 map.removeLayer(geojsonLayer);
             }
 
-            // Filter out any borders that shouldn't exist in the current tick
             var filteredData = {
                 "type": "FeatureCollection",
                 "features": mapData.features.filter(f => 
@@ -74,32 +80,45 @@
                 )
             };
 
-            // Draw the new borders
             geojsonLayer = L.geoJSON(filteredData, {
+                // How to draw Borders (Polygons)
                 style: function(feature) {
                     return {
-                        color: feature.properties.color || "#ffaa00", // Default color
+                        color: feature.properties.color || "#ffaa00", 
                         weight: 2,
                         opacity: 1,
                         fillOpacity: 0.3
                     };
                 },
+                // --- NEW: How to draw Markers (Points) ---
+                pointToLayer: function(feature, latlng) {
+                    // Check the geojson for a "marker_type" (e.g., "holy_site"). Default to "city" if empty.
+                    var type = feature.properties.marker_type || "city";
+                    var selectedIcon = customIcons[type] || customIcons["city"]; 
+                    return L.marker(latlng, { icon: selectedIcon });
+                },
+                // Popups for both Borders AND Markers
                 onEachFeature: function(feature, layer) {
-                    // Adds a popup when a player clicks on their nation
                     if (feature.properties && feature.properties.name) {
-                        layer.bindPopup("<h3 style='color:black; margin:0;'>" + feature.properties.name + "</h3>");
+                        let popupHtml = "<h3 style='color:black; margin:0;'>" + feature.properties.name + "</h3>";
+                        // Added optional description support for flavor text on markers
+                        if (feature.properties.description) {
+                            popupHtml += "<p style='color:black; margin-top:5px; font-size:14px;'>" + feature.properties.description + "</p>";
+                        }
+                        layer.bindPopup(popupHtml);
                     }
                 }
             }).addTo(map);
         }
 
-        // 5. Tell the slider to trigger the magic function
+        // 5. Controls
         document.getElementById('slider').addEventListener('input', function(e) {
             updateMap(parseInt(e.target.value));
-            // Force reload the page ignoring cache when the button is clicked
+        });
+
+        // Fixed Button Logic
         document.getElementById('sync-btn').addEventListener('click', function() {
             window.location.reload(true); 
-        });
         });
     </script>
 </body>
