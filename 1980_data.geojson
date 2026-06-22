@@ -956,10 +956,10 @@
       "properties": {
         "name": "Arya",
         "fill-opacity": 0.3,
-        "stroke-width": 1,
+        "stroke-width": 2,
         "stroke-opacity": 1,
         "color": "#t0c8dg1",
-        "fill": "#312E81"
+        "fill": "rgba(11, 157, 128, 1)"
       },
       "geometry": {
         "type": "Polygon",
