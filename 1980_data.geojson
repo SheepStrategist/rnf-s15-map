@@ -5,12 +5,11 @@
       "type": "Feature",
       "properties": {
         "name": "Greece",
-        "color": "#91150c",
-        "fill": "rgba(27, 67, 147, 1)",
+        "color": "#1b4393",
         "fill-opacity": 0.3,
-        "stroke": "rgba(12, 70, 106, 1)",
         "stroke-opacity": 1,
-        "stroke-width": 2
+        "stroke-width": 2,
+        "fill": "#312E81"
       },
       "geometry": {
         "type": "Polygon",
@@ -956,11 +955,11 @@
       "type": "Feature",
       "properties": {
         "name": "Arya",
-        "fill": "rgba(12, 141, 145, 1)",
         "fill-opacity": 0.3,
-        "stroke": "rgba(189, 189, 27, 1)",
         "stroke-width": 1,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "color": "#t0c8dg1",
+        "fill": "#312E81"
       },
       "geometry": {
         "type": "Polygon",
