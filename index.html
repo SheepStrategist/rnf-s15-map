@@ -1,171 +1,453 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>R&F Tactical War Room</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-measure/3.1.0/leaflet-measure.css" />
-    
-    <style>
-        body { margin: 0; padding: 0; background-color: #050505; color: white; font-family: monospace; }
-        #map { height: 90vh; width: 100vw; background: #0a0a0a; }
-        #controls { height: 10vh; display: flex; align-items: center; justify-content: center; background: #111; border-top: 2px solid #3fe0c2; }
-        #slider { width: 50%; margin: 0 20px; cursor: pointer; accent-color: #3fe0c2; }
-        .label { font-size: 1.2rem; font-weight: bold; width: 180px; text-align: center; color: #3fe0c2; }
-        .btn { padding: 8px 15px; cursor: pointer; background: #021a1a; color: #3fe0c2; border: 1px solid #3fe0c2; border-radius: 3px; font-weight: bold; font-family: monospace; }
-        .btn:hover { background: #3fe0c2; color: #050505; }
-        
-        /* 🐜 THE MARCHING ANTS CSS ANIMATION */
-        .marching-ants {
-            stroke-dasharray: 15, 15;
-            animation: march 1s linear infinite;
-        }
-        @keyframes march {
-            0% { stroke-dashoffset: 30; }
-            100% { stroke-dashoffset: 0; }
-        }
-        
-        /* Custom UI tweaks for the Leaflet plugins */
-        .leaflet-control-measure { background: rgba(1, 8, 8, 0.9) !important; color: #3fe0c2 !important; border: 1px solid #3fe0c2 !important; }
-        .leaflet-control-layers { background: rgba(1, 8, 8, 0.9) !important; color: #3fe0c2 !important; border: 1px solid #3fe0c2 !important; font-family: monospace; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>R&F Live Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --void:#0b0d08;
+    --panel:#181b12;
+    --panel-alt:#20241a;
+    --paper:#ece5d2;
+    --paper-dim:#9a917c;
+    --brass:#c9a227;
+    --brass-dim:#8f7a2e;
+    --blood:#a83c32;
+    --blood-bright:#c94f3f;
+    --line:#383b2c;
+    --shadow:rgba(0,0,0,.55);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--void);color:var(--paper);height:100%;overflow:hidden;}
+  body{display:flex;flex-direction:column;height:100vh;height:100dvh;font-family:'Source Serif 4',Georgia,serif;}
+
+  /* ---------- MAP ---------- */
+  #map{flex:1 1 auto;min-height:0;background:var(--void);position:relative;}
+  .leaflet-container{background:var(--void);}
+
+  /* ---------- TITLE PLATE ---------- */
+  #title-plate{
+    position:absolute; top:14px; left:14px; z-index:1000;
+    background:var(--panel); border:1px solid var(--brass-dim);
+    padding:6px 16px; box-shadow:0 4px 14px var(--shadow);
+  }
+  #title-plate .t1{display:block;font-family:'Oswald',sans-serif;font-weight:700;font-size:1.15rem;letter-spacing:.08em;color:var(--brass);}
+  #title-plate .t2{display:block;font-family:'JetBrains Mono',monospace;font-size:.58rem;letter-spacing:.28em;color:var(--paper-dim);margin-top:1px;}
+
+  /* ---------- DOSSIER (layer control) ---------- */
+  .dossier{
+    position:absolute; top:14px; right:14px; z-index:1000;
+    width:250px; max-width:calc(100vw - 28px);
+    background:var(--panel); border:1px solid var(--brass-dim);
+    box-shadow:0 8px 22px var(--shadow);
+    clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%);
+  }
+  .dossier::before{
+    content:''; position:absolute; top:6px; left:6px; width:8px; height:8px; border-radius:50%;
+    background:var(--brass); box-shadow:0 0 0 2px var(--void), inset 0 0 0 1px var(--brass-dim);
+  }
+  .dossier-header{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:10px 14px 10px 20px; cursor:pointer; user-select:none;
+    font-family:'Oswald',sans-serif; font-weight:600; font-size:.82rem;
+    letter-spacing:.12em; text-transform:uppercase; color:var(--brass);
+  }
+  .dossier-header .chevron{transition:transform .2s ease; font-size:.7rem; color:var(--paper-dim);}
+  .dossier.collapsed .chevron{transform:rotate(-90deg);}
+  .dossier-body{border-top:1px solid var(--line); max-height:56dvh; overflow-y:auto;}
+  .dossier.collapsed .dossier-body{display:none;}
+
+  .layer-row{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:8px 14px; border-top:1px solid var(--line);
+    font-family:'JetBrains Mono',monospace; font-size:.68rem; letter-spacing:.03em;
+  }
+  .layer-row:first-child{border-top:none;}
+  .switch{position:relative; width:34px; height:19px; flex:0 0 auto;}
+  .switch input{position:absolute; inset:0; opacity:0; margin:0; cursor:pointer; z-index:2;}
+  .switch .track{position:absolute; inset:0; background:var(--line); border-radius:10px; transition:background .15s;}
+  .switch .thumb{position:absolute; top:2px; left:2px; width:15px; height:15px; border-radius:50%; background:var(--paper-dim); transition:transform .15s, background .15s;}
+  .switch input:checked ~ .track{background:var(--brass-dim);}
+  .switch input:checked ~ .thumb{transform:translateX(15px); background:var(--brass);}
+
+  .legend{border-top:1px solid var(--brass-dim); padding:10px 14px 12px;}
+  .legend-title{font-family:'Oswald',sans-serif; font-size:.66rem; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--paper-dim); margin-bottom:6px;}
+  .legend-row{display:flex; align-items:center; gap:8px; font-family:'JetBrains Mono',monospace; font-size:.65rem; color:var(--paper-dim); padding:3px 0;}
+  .legend-swatch{width:11px; height:11px; flex:0 0 auto; border:1px solid #12140d;}
+  .legend-swatch.atrocity{background:var(--blood); border-radius:50%;}
+  .legend-swatch.lopsided{background:transparent; border:2px solid var(--blood-bright);}
+  .legend-swatch.pivotal{background:var(--brass); clip-path:polygon(50% 0,61% 38%,100% 38%,69% 60%,80% 100%,50% 76%,20% 100%,31% 60%,0 38%,39% 38%);}
+
+  /* ---------- CONSOLE (bottom bar) ---------- */
+  #console{
+    flex:0 0 auto; background:var(--panel); border-top:2px solid var(--brass-dim);
+    display:flex; align-items:center; gap:18px; padding:10px 20px;
+    box-shadow:0 -4px 14px var(--shadow);
+  }
+  .year-block{font-family:'Oswald',sans-serif; font-weight:600; font-size:1.5rem; letter-spacing:.06em; min-width:118px; text-align:center; color:var(--paper);}
+  .year-block small{display:block; font-family:'JetBrains Mono',monospace; font-size:.58rem; letter-spacing:.24em; color:var(--brass-dim); font-weight:500;}
+  .timeline{flex:1 1 auto; min-width:0;}
+  #slider{-webkit-appearance:none; width:100%; height:4px; background:var(--line); border-radius:2px; cursor:pointer; margin:0;}
+  #slider::-webkit-slider-thumb{-webkit-appearance:none; width:18px; height:18px; border-radius:50%; background:var(--brass); border:2px solid var(--void); margin-top:-7px; cursor:pointer; box-shadow:0 2px 6px var(--shadow);}
+  #slider::-moz-range-thumb{width:16px; height:16px; border-radius:50%; background:var(--brass); border:2px solid var(--void); cursor:pointer;}
+  #slider::-moz-range-track{height:4px; background:var(--line); border-radius:2px;}
+  .ticks{display:flex; justify-content:space-between; margin-top:4px; padding:0 2px; font-family:'JetBrains Mono',monospace; font-size:.6rem; color:var(--paper-dim); letter-spacing:.02em;}
+  #sync-btn{
+    flex:0 0 auto; display:flex; align-items:center; gap:6px;
+    background:var(--panel-alt); color:var(--brass); border:1px solid var(--brass-dim);
+    font-family:'Oswald',sans-serif; font-weight:600; font-size:.72rem; letter-spacing:.1em; text-transform:uppercase;
+    padding:10px 14px; cursor:pointer; transition:background .15s, transform .1s;
+  }
+  #sync-btn:hover{background:var(--brass-dim); color:var(--void);}
+  #sync-btn:active{transform:scale(.96);}
+  #sync-btn svg{width:14px; height:14px; flex:0 0 auto;}
+
+  /* ---------- LEAFLET POPUP THEME ---------- */
+  .leaflet-popup-content-wrapper{background:var(--panel); color:var(--paper); border:1px solid var(--brass-dim); border-radius:2px; box-shadow:0 8px 20px var(--shadow);}
+  .leaflet-popup-tip{background:var(--panel); border:1px solid var(--brass-dim); box-shadow:none;}
+  .leaflet-popup-content{margin:12px 14px; min-width:160px;}
+  .leaflet-popup-content h3{font-family:'Oswald',sans-serif; font-weight:600; font-size:1rem; letter-spacing:.02em; color:var(--brass); margin:0 0 4px;}
+  .leaflet-popup-content .popup-meta{font-family:'JetBrains Mono',monospace; font-size:.62rem; text-transform:uppercase; letter-spacing:.08em; color:var(--paper-dim); margin:0 0 6px;}
+  .leaflet-popup-content p{font-family:'Source Serif 4',Georgia,serif; font-size:.85rem; line-height:1.45; color:var(--paper); margin:0;}
+  .leaflet-popup-content .popup-flags{margin-top:8px; display:flex; gap:6px; flex-wrap:wrap;}
+  .leaflet-popup-content .popup-flags span{font-family:'JetBrains Mono',monospace; font-size:.58rem; text-transform:uppercase; letter-spacing:.05em; padding:2px 6px; border:1px solid var(--blood); color:var(--blood-bright);}
+  .leaflet-popup-close-button{color:var(--paper-dim) !important;}
+
+  .operation-label{background:none; border:none; box-shadow:none; padding:0; font-family:'Oswald',sans-serif; font-weight:600; font-size:.65rem; letter-spacing:.06em; text-transform:uppercase; color:var(--paper); text-shadow:0 0 4px #000, 0 0 6px #000;}
+  .operation-label::before{display:none;}
+  .leaflet-div-icon.engagement-icon{background:transparent; border:none;}
+
+  /* ---------- MOBILE ---------- */
+  @media (max-width:680px){
+    #title-plate{padding:5px 10px; top:10px; left:10px;}
+    #title-plate .t1{font-size:.95rem;}
+    #title-plate .t2{font-size:.5rem; letter-spacing:.2em;}
+
+    .dossier{top:auto; bottom:10px; left:10px; right:10px; width:auto; clip-path:none; border-radius:8px 8px 0 0;}
+    .dossier::before{display:none;}
+    .dossier-body{max-height:38dvh;}
+
+    #console{flex-wrap:wrap; padding:8px 12px; gap:8px;}
+    .year-block{min-width:0; width:100%; order:1; font-size:1.3rem;}
+    .timeline{order:2; width:100%; flex:1 1 100%;}
+    #sync-btn{order:3; flex:1 1 auto; justify-content:center;}
+    .ticks span:not(:first-child):not(:last-child){display:none;}
+  }
+</style>
 </head>
 <body>
-    <div id="map"></div>
-    
-    <div id="controls">
-        <div class="label" id="year-display">Year: ----</div>
-        <input type="range" id="slider" min="0" value="0" step="1">
-        <button id="sync-btn" class="btn">Force Sync Telemetry</button>
+
+  <div id="map">
+    <div id="title-plate">
+      <span class="t1">R&amp;F</span>
+      <span class="t2">LIVE MAP</span>
     </div>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-measure/3.1.0/leaflet-measure.min.js"></script>
-    
-    <script>
-        // 1. Initialize Map
-        var map = L.map('map').setView([40.0, 15.0], 4);
+    <div class="dossier" id="dossier">
+      <div class="dossier-header" id="dossier-header">
+        <span>Map layers</span>
+        <span class="chevron">&#9662;</span>
+      </div>
+      <div class="dossier-body" id="dossier-body"></div>
+      <div class="legend">
+        <div class="legend-title">Engagement key</div>
+        <div class="legend-row"><span class="legend-swatch atrocity"></span>War crime</div>
+        <div class="legend-row"><span class="legend-swatch lopsided"></span>Lopsided</div>
+        <div class="legend-row"><span class="legend-swatch pivotal"></span>Pivotal</div>
+      </div>
+    </div>
+  </div>
 
-        L.tileLayer('tiles/{z}/{x}/{y}.jpg', {
-            minZoom: 0, maxZoom: 8, noWrap: true, bounds: [[-90, -180], [90, 180]]
-        }).addTo(map);
+  <div id="console">
+    <div class="year-block" id="year-display"><small>Year</small>----</div>
+    <div class="timeline">
+      <input type="range" id="slider" min="0" value="0" step="1">
+      <div class="ticks" id="ticks"></div>
+    </div>
+    <button id="sync-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-3-6.7M21 3v6h-6"/></svg>
+      Refresh
+    </button>
+  </div>
 
-        // 2. Add GM Measurement Ruler (Logistics Calculator)
-        var measureControl = new L.Control.Measure({
-            position: 'topleft',
-            primaryLengthUnit: 'kilometers',
-            secondaryLengthUnit: 'miles',
-            activeColor: '#ff5124',
-            completedColor: '#3fe0c2'
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-ant-path/dist/leaflet-ant-path.min.js"></script>
+  <script>
+    // ============================================================
+    // 1. MAP INIT
+    // ============================================================
+    var map = L.map('map', { zoomControl: false }).setView([40.0, 15.0], 4);
+    L.control.zoom({ position: 'bottomleft' }).addTo(map);
+
+    L.tileLayer('tiles/{z}/{x}/{y}.jpg', {
+        minZoom: 0, maxZoom: 8, noWrap: true,
+        bounds: [[-90, -180], [90, 180]]
+    }).addTo(map);
+
+    var customIcons = {
+        "capital": L.icon({ iconUrl: 'art/Capital_Icon.png', iconSize: [30, 30], iconAnchor: [15, 30], popupAnchor: [0, -30] }),
+        "city": L.icon({ iconUrl: 'art/City_Icon.png', iconSize: [20, 20], iconAnchor: [10, 20], popupAnchor: [0, -20] }),
+        "wonder": L.icon({ iconUrl: 'art/Wonder_Icon.png', iconSize: [35, 35], iconAnchor: [17, 35], popupAnchor: [0, -35] }),
+        "holy_site": L.icon({ iconUrl: 'art/HolySite_Icon.png', iconSize: [25, 25], iconAnchor: [12, 25], popupAnchor: [0, -25] }),
+        "chokepoint": L.icon({ iconUrl: 'art/Chokepoint_Icon.png', iconSize: [30, 30], iconAnchor: [15, 30], popupAnchor: [0, -30] })
+    };
+
+    // ============================================================
+    // 2. LAYER GROUPS + DOSSIER PANEL (built from one config list)
+    // ============================================================
+    var LAYER_DEFS = [
+        { key: 'capitals',    label: 'Capitals',            match: f => f.geometry.type === 'Point' && f.properties.marker_type === 'capital' },
+        { key: 'cities',      label: 'Cities',               match: f => f.geometry.type === 'Point' && (f.properties.marker_type === 'city' || !f.properties.marker_type) },
+        { key: 'holy_sites',  label: 'Holy sites',           match: f => f.properties.marker_type === 'holy_site' },
+        { key: 'wonders',     label: 'Wonders',               match: f => f.properties.marker_type === 'wonder' },
+        { key: 'chokepoints', label: 'Chokepoints',           match: f => f.properties.marker_type === 'chokepoint' },
+        { key: 'territories', label: 'National territories',  match: f => f.geometry.type !== 'Point' }
+    ];
+    var FRONTLINE_DEFS = [
+        { key: 'frontline',   label: 'Active frontline',      role: 'frontline' },
+        { key: 'advances',    label: 'Offensives & convoys',   role: 'advance' },
+        { key: 'greyzone',    label: 'Grey zone',              role: 'grey_zone' },
+        { key: 'operations',  label: 'Operations (historical)',role: 'operation_gain' },
+        { key: 'engagements', label: 'Engagements',            role: 'engagement' }
+    ];
+    var ALL_DEFS = LAYER_DEFS.concat(FRONTLINE_DEFS);
+
+    var layerGroups = {};
+    ALL_DEFS.forEach(function (def) {
+        layerGroups[def.key] = L.layerGroup().addTo(map);
+    });
+
+    var dossierBody = document.getElementById('dossier-body');
+    ALL_DEFS.forEach(function (def) {
+        var row = document.createElement('label');
+        row.className = 'layer-row';
+        row.innerHTML =
+            '<span>' + def.label + '</span>' +
+            '<span class="switch">' +
+                '<input type="checkbox" checked data-layer="' + def.key + '">' +
+                '<span class="track"></span><span class="thumb"></span>' +
+            '</span>';
+        dossierBody.appendChild(row);
+    });
+    dossierBody.addEventListener('change', function (e) {
+        var key = e.target.getAttribute('data-layer');
+        if (!key) return;
+        if (e.target.checked) map.addLayer(layerGroups[key]);
+        else map.removeLayer(layerGroups[key]);
+    });
+
+    var dossier = document.getElementById('dossier');
+    document.getElementById('dossier-header').addEventListener('click', function () {
+        dossier.classList.toggle('collapsed');
+    });
+    if (window.innerWidth <= 680) dossier.classList.add('collapsed');
+
+    // ============================================================
+    // 3. POPUP + ICON HELPERS
+    // ============================================================
+    function escapeHtml(s) {
+        return String(s).replace(/[&<>"']/g, function (c) {
+            return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c];
         });
-        measureControl.addTo(map);
+    }
+    function buildPopup(props) {
+        var html = '';
+        if (props.name) html += '<h3>' + escapeHtml(props.name) + '</h3>';
+        var meta = [];
+        if (props.engagement_type) meta.push(props.engagement_type.replace(/_/g, ' '));
+        if (props.date) meta.push(props.date);
+        if (props.date_range) meta.push(props.date_range);
+        if (meta.length) html += '<div class="popup-meta">' + meta.map(escapeHtml).join(' &middot; ') + '</div>';
+        if (props.description) html += '<p>' + escapeHtml(props.description) + '</p>';
+        var flags = [];
+        if (props.atrocity) flags.push('war crime');
+        if (props.lopsided) flags.push('lopsided');
+        if (props.pivotal) flags.push('pivotal');
+        if (flags.length) html += '<div class="popup-flags">' + flags.map(function (f) { return '<span>' + f + '</span>'; }).join('') + '</div>';
+        return html;
+    }
 
-        // 3. Icon Dictionary (Expanded for Orthogonal War Artifacts)
-        var customIcons = {
-            "capital": L.icon({ iconUrl: 'art/Capital_Icon.png', iconSize: [30, 30] }),
-            "city": L.icon({ iconUrl: 'art/City_Icon.png', iconSize: [20, 20] }),
-            "wonder": L.icon({ iconUrl: 'art/Wonder_Icon.png', iconSize: [35, 35] }),
-            
-            // War Artifacts
-            "sabotage": L.icon({ iconUrl: 'art/Sabotage_Icon.png', iconSize: [25, 25] }),
-            "strategic_bombardment": L.icon({ iconUrl: 'art/Bomb_Icon.png', iconSize: [30, 30] }),
-            "last_stand": L.icon({ iconUrl: 'art/Shield_Icon.png', iconSize: [28, 28] }),
-            "mutiny": L.icon({ iconUrl: 'art/Mutiny_Icon.png', iconSize: [25, 25] }),
-            "naval_blockade": L.icon({ iconUrl: 'art/Blockade_Icon.png', iconSize: [30, 30] })
-        };
+    var ENGAGEMENT_VISUALS = {
+        skirmish:            ['diamond', '#a83c32', 'SK'],
+        engagement:          ['diamond', '#a83c32', 'EN'],
+        siege:               ['diamond', '#a83c32', 'SG'],
+        encirclement:        ['diamond', '#a83c32', 'EC'],
+        breakthrough:        ['diamond', '#a83c32', 'BT'],
+        ambush:              ['diamond', '#a83c32', 'AM'],
+        raid:                ['diamond', '#a83c32', 'RD'],
+        sabotage:            ['circle',  '#5b4a7a', 'SB'],
+        assassination:       ['circle',  '#5b4a7a', 'AS'],
+        naval_engagement:    ['circle',  '#3d6a7a', 'NV'],
+        blockade:            ['circle',  '#3d6a7a', 'BL'],
+        bombardment:         ['triangle','#c9a227', 'BM'],
+        uprising:            ['square',  '#7a7440', 'UP'],
+        mutiny:              ['square',  '#7a7440', 'MT'],
+        coup:                ['square',  '#7a7440', 'CP'],
+        withdrawal:          ['square',  '#7a7440', 'WD'],
+        ceasefire_violation: ['square',  '#7a7440', 'CV']
+    };
+    function buildEngagementIcon(props) {
+        var v = ENGAGEMENT_VISUALS[props.engagement_type] || ENGAGEMENT_VISUALS.engagement;
+        var shape = v[0], color = v[1], glyph = v[2];
+        var shapeSvg = '';
+        if (shape === 'diamond') shapeSvg = '<rect x="7" y="7" width="18" height="18" transform="rotate(45 16 16)" fill="' + color + '" stroke="#12140d" stroke-width="1.5"/>';
+        else if (shape === 'circle') shapeSvg = '<circle cx="16" cy="16" r="11" fill="' + color + '" stroke="#12140d" stroke-width="1.5"/>';
+        else if (shape === 'triangle') shapeSvg = '<polygon points="16,5 27,25 5,25" fill="' + color + '" stroke="#12140d" stroke-width="1.5"/>';
+        else shapeSvg = '<rect x="6" y="6" width="20" height="20" fill="' + color + '" stroke="#12140d" stroke-width="1.5"/>';
+        var ring = props.lopsided ? '<circle cx="16" cy="16" r="15" fill="none" stroke="#c94f3f" stroke-width="1" opacity=".6"/>' : '';
+        var badge = props.atrocity ? '<circle cx="26" cy="6" r="5" fill="#a83c32" stroke="#12140d" stroke-width="1"/><text x="26" y="8.5" font-size="7" text-anchor="middle" fill="#ece5d2" font-family="JetBrains Mono">!</text>' : '';
+        var star = props.pivotal ? '<polygon points="16,1 18,6 23,6 19,9 20,14 16,11 12,14 13,9 9,6 14,6" fill="#c9a227"/>' : '';
+        var svg = '<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">' + ring + shapeSvg +
+            '<text x="16" y="20" font-size="8" text-anchor="middle" fill="#ece5d2" font-family="JetBrains Mono" font-weight="700">' + glyph + '</text>' +
+            badge + star + '</svg>';
+        return L.divIcon({ html: svg, className: 'engagement-icon', iconSize: [32, 32], iconAnchor: [16, 16], popupAnchor: [0, -16] });
+    }
 
-        // 4. Create Empty Layer Groups for Toggling
-        var bordersLayer = L.layerGroup().addTo(map);
-        var citiesLayer = L.layerGroup().addTo(map);
-        var frontlinesLayer = L.layerGroup().addTo(map);
+    function ensureHatchDefs() {
+        var svg = document.querySelector('.leaflet-overlay-pane svg');
+        if (!svg || svg.querySelector('#hatchPattern')) return;
+        var ns = 'http://www.w3.org/2000/svg';
+        var defs = document.createElementNS(ns, 'defs');
+        defs.innerHTML =
+            '<pattern id="hatchPattern" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">' +
+            '<rect width="8" height="8" fill="#4a4a3e" fill-opacity="0.15"/>' +
+            '<line x1="0" y1="0" x2="0" y2="8" stroke="#9a917c" stroke-width="2" stroke-opacity="0.35"/>' +
+            '</pattern>';
+        svg.insertBefore(defs, svg.firstChild);
+    }
 
-        // 5. Build Layer Control Box
-        var overlays = {
-            "National Borders": bordersLayer,
-            "Cities & Infrastructure": citiesLayer,
-            "Active Frontlines & War": frontlinesLayer
-        };
-        L.control.layers(null, overlays, {position: 'topright'}).addTo(map);
+    // ============================================================
+    // 4. YEAR SNAPSHOT LOADER (nations, cities, wonders, etc.)
+    // ============================================================
+    var availableYears = [1980, 1983, 1989, 1990, 1992];
+    var slider = document.getElementById('slider');
+    slider.max = availableYears.length - 1;
 
-        // Timeline Setup
-        var availableYears = [1980, 1983, 1989, 1990, 1992];
-        var slider = document.getElementById('slider');
-        slider.max = availableYears.length - 1;
+    var ticksEl = document.getElementById('ticks');
+    availableYears.forEach(function (y) {
+        var s = document.createElement('span');
+        s.textContent = y;
+        ticksEl.appendChild(s);
+    });
 
-        // --- Core Multi-Fetch Engine ---
-        function updateMap(year) {
-            document.getElementById('year-display').innerText = "Year: " + year;
-            
-            // Clear the board
-            bordersLayer.clearLayers();
-            citiesLayer.clearLayers();
-            frontlinesLayer.clearLayers();
+    function updateMap(year) {
+        document.getElementById('year-display').innerHTML = '<small>Year</small>' + year;
 
-            var baseDataUrl = year + '_data.geojson?nocache=' + new Date().getTime();
-            var frontlineUrl = 'frontlines.geojson?nocache=' + new Date().getTime(); // Always pulls the latest war file
+        LAYER_DEFS.forEach(function (def) { layerGroups[def.key].clearLayers(); });
 
-            // Fetch both files simultaneously
-            Promise.all([
-                fetch(baseDataUrl).then(res => res.ok ? res.json() : null).catch(() => null),
-                fetch(frontlineUrl).then(res => res.ok ? res.json() : null).catch(() => null)
-            ]).then(([baseData, warData]) => {
-                
-                // --- Process Base Data (Borders & Cities) ---
-                if (baseData) {
-                    L.geoJSON(baseData, {
-                        style: function(f) { return { color: f.properties.color || "#3fe0c2", weight: 2, fillOpacity: 0.2 }; },
-                        pointToLayer: function(f, latlng) {
-                            var icon = customIcons[f.properties.marker_type] || customIcons["city"];
-                            return L.marker(latlng, { icon: icon });
+        var fileUrl = year + '_data.geojson?nocache=' + new Date().getTime();
+        fetch(fileUrl)
+            .then(function (response) {
+                if (!response.ok) throw new Error('File not found for year ' + year);
+                return response.json();
+            })
+            .then(function (data) {
+                LAYER_DEFS.forEach(function (def) {
+                    L.geoJSON(data, {
+                        filter: def.match,
+                        style: function (feature) {
+                            return {
+                                color: feature.properties.color || '#c9a227',
+                                weight: 2, opacity: 1, fillOpacity: 0.28
+                            };
                         },
-                        onEachFeature: function(f, layer) {
-                            if (f.geometry.type === "Point") { citiesLayer.addLayer(layer); } 
-                            else { bordersLayer.addLayer(layer); }
-                            
-                            if (f.properties.name) {
-                                layer.bindPopup("<h3 style='color:#010505;margin:0;'>" + f.properties.name + "</h3><p style='color:#333;margin-top:5px;'>" + (f.properties.description || "") + "</p>");
+                        pointToLayer: function (feature, latlng) {
+                            var type = feature.properties.marker_type || 'city';
+                            var selectedIcon = customIcons[type] || customIcons['city'];
+                            return L.marker(latlng, { icon: selectedIcon });
+                        },
+                        onEachFeature: function (feature, layer) {
+                            if (feature.properties && feature.properties.name) {
+                                layer.bindPopup(buildPopup(feature.properties));
                             }
                         }
-                    });
-                }
+                    }).addTo(layerGroups[def.key]);
+                });
+            })
+            .catch(function (err) { console.error(err); });
+    }
+    updateMap(availableYears[0]);
 
-                // --- Process War Data (Grey-zones & Marching Ants) ---
-                if (warData) {
-                    L.geoJSON(warData, {
-                        style: function(f) {
-                            var styleDef = { color: f.properties.color || "#ff5124", weight: 3, fillOpacity: 0.4 };
-                            
-                            // Apply Marching Ants animation to offensive lines!
-                            if (f.geometry.type === "LineString" && f.properties.type === "offensive_axis") {
-                                styleDef.className = 'marching-ants';
-                                styleDef.weight = 4;
-                            }
-                            return styleDef;
-                        },
-                        pointToLayer: function(f, latlng) {
-                            var icon = customIcons[f.properties.marker_type] || customIcons["sabotage"]; // Defaults to sabotage if missing
-                            return L.marker(latlng, { icon: icon });
-                        },
-                        onEachFeature: function(f, layer) {
-                            frontlinesLayer.addLayer(layer); // Everything from this file goes to the war layer
-                            if (f.properties.name) {
-                                layer.bindPopup("<h3 style='color:#ff5124;margin:0;'>" + f.properties.name + "</h3><p style='color:#333;margin-top:5px;'>" + (f.properties.description || "") + "</p>");
-                            }
+    slider.addEventListener('input', function (e) {
+        updateMap(availableYears[parseInt(e.target.value, 10)]);
+    });
+    document.getElementById('sync-btn').addEventListener('click', function () {
+        window.location.reload(true);
+    });
+
+    // ============================================================
+    // 5. FRONTLINE OVERLAY (independent of the year slider)
+    //    Expects frontlines_current.geojson with features tagged by
+    //    properties.feature_role: frontline | advance | grey_zone |
+    //    operation_gain | engagement  (see accompanying sample file)
+    // ============================================================
+    function loadFrontlines() {
+        fetch('frontlines_current.geojson?nocache=' + new Date().getTime())
+            .then(function (response) {
+                if (!response.ok) throw new Error('No frontline data found');
+                return response.json();
+            })
+            .then(function (data) {
+                (data.features || []).forEach(function (feature) {
+                    var props = feature.properties || {};
+                    var role = props.feature_role;
+                    var latlngs;
+
+                    if (role === 'frontline' || role === 'advance') {
+                        latlngs = feature.geometry.coordinates.map(function (c) { return [c[1], c[0]]; });
+                    }
+
+                    if (role === 'advance') {
+                        var isTrade = props.kind === 'trade';
+                        var advance = L.polyline.antPath(latlngs, {
+                            color: isTrade ? '#c9a227' : '#c94f3f',
+                            pulseColor: '#ece5d2',
+                            delay: isTrade ? 1300 : 650,
+                            dashArray: [8, 16],
+                            weight: 4
+                        }).addTo(layerGroups.advances);
+                        if (props.name || props.description) advance.bindPopup(buildPopup(props));
+
+                    } else if (role === 'frontline') {
+                        var line;
+                        if (props.active) {
+                            line = L.polyline.antPath(latlngs, { color: '#a83c32', pulseColor: '#ece5d2', delay: 750, dashArray: [10, 12], weight: 5 });
+                        } else {
+                            line = L.polyline(latlngs, { color: '#a83c32', weight: 5, opacity: 0.9 });
                         }
-                    });
-                }
-            });
-        }
+                        line.addTo(layerGroups.frontline);
+                        if (props.name || props.description) line.bindPopup(buildPopup(props));
 
-        slider.addEventListener('input', function(e) {
-            updateMap(availableYears[parseInt(e.target.value)]);
-        });
+                    } else if (role === 'grey_zone') {
+                        var gz = L.geoJSON(feature, {
+                            style: function () { return { className: 'grey-zone-fill', color: '#9a917c', weight: 1, dashArray: '4,6', fillOpacity: 0.35 }; }
+                        }).addTo(layerGroups.greyzone);
+                        if (props.name || props.description) gz.bindPopup(buildPopup(props));
+                        ensureHatchDefs();
 
-        document.getElementById('sync-btn').addEventListener('click', function() {
-            updateMap(availableYears[parseInt(slider.value)]); 
-        });
+                    } else if (role === 'operation_gain') {
+                        var op = L.geoJSON(feature, {
+                            style: function () { return { color: props.color || '#c9a227', weight: 2, fillColor: props.color || '#c9a227', fillOpacity: 0.22 }; }
+                        }).addTo(layerGroups.operations);
+                        op.bindTooltip(props.operation_name || props.name || 'Operation', { permanent: true, direction: 'center', className: 'operation-label' });
+                        op.bindPopup(buildPopup(Object.assign({ name: props.operation_name || props.name }, props)));
 
-        // Boot
-        updateMap(availableYears[0]);
-    </script>
+                    } else if (role === 'engagement') {
+                        var latlng = [feature.geometry.coordinates[1], feature.geometry.coordinates[0]];
+                        L.marker(latlng, { icon: buildEngagementIcon(props) })
+                            .bindPopup(buildPopup(props))
+                            .addTo(layerGroups.engagements);
+                    }
+                });
+            })
+            .catch(function (err) { console.warn('Frontline layer not loaded:', err.message); });
+    }
+    loadFrontlines();
+  </script>
 </body>
 </html>
