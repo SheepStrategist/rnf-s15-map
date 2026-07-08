@@ -1,0 +1,620 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.8667388,
+          36.7180523
+        ]
+      },
+      "properties": {
+        "name": "Drapsaka-Kunduz",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.832584,
+          37.5994985
+        ]
+      },
+      "properties": {
+        "name": "Merv",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.9779799,
+          39.6629797
+        ]
+      },
+      "properties": {
+        "name": "Samarqand",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.4182607,
+          39.7684352
+        ]
+      },
+      "properties": {
+        "name": "Bukhara",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2522472,
+          31.2748986
+        ]
+      },
+      "properties": {
+        "name": "Raphia",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.4539936,
+          31.5159126
+        ]
+      },
+      "properties": {
+        "name": "Gaza",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.6770018,
+          34.6159894
+        ]
+      },
+      "properties": {
+        "name": "Perozhormizd",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5635952,
+          31.6686048
+        ]
+      },
+      "properties": {
+        "name": "Ascalum",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2197313,
+          31.7773373
+        ]
+      },
+      "properties": {
+        "name": "Jerusalem",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.781192,
+          32.0868418
+        ]
+      },
+      "properties": {
+        "name": "Jaffa",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3042847,
+          32.7072172
+        ]
+      },
+      "properties": {
+        "name": "Nazareth",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0292801,
+          32.8030393
+        ]
+      },
+      "properties": {
+        "name": "Haifa",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1947564,
+          33.2706431
+        ]
+      },
+      "properties": {
+        "name": "Tyros",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3698643,
+          33.5573094
+        ]
+      },
+      "properties": {
+        "name": "Sidon",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8260979,
+          34.4401073
+        ]
+      },
+      "properties": {
+        "name": "Tripoli-Perozcyrus",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6508955,
+          34.1267511
+        ]
+      },
+      "properties": {
+        "name": "Byblos",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4854024,
+          33.894218
+        ]
+      },
+      "properties": {
+        "name": "Beirut",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7145883,
+          34.722895
+        ]
+      },
+      "properties": {
+        "name": "Emesa",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7518349,
+          35.1345781
+        ]
+      },
+      "properties": {
+        "name": "Epiphaneia",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3035825,
+          33.5086098
+        ]
+      },
+      "properties": {
+        "name": "Damascus",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.1581471,
+          36.1983222
+        ]
+      },
+      "properties": {
+        "name": "Aleppo",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.8591864,
+          36.318513
+        ]
+      },
+      "properties": {
+        "name": "Shengal",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.7243076,
+          31.6050581
+        ]
+      },
+      "properties": {
+        "name": "Cyrus-Mundigak",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.1282784,
+          34.5394097
+        ]
+      },
+      "properties": {
+        "name": "Kabul",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.234461,
+          34.3596676
+        ]
+      },
+      "properties": {
+        "name": "Artacoana-Areiana",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.558627,
+          24.5515382
+        ]
+      },
+      "properties": {
+        "name": "Krokala",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.0382542,
+          36.5483438
+        ]
+      },
+      "properties": {
+        "name": "Zadrakarta",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.2720081,
+          37.9901993
+        ]
+      },
+      "properties": {
+        "name": "Nisa",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5844092,
+          36.2981928
+        ]
+      },
+      "properties": {
+        "name": "Tus-Mashhad",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.2860658,
+          38.0726243
+        ]
+      },
+      "properties": {
+        "name": "Tabriz",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3735395,
+          35.717198
+        ]
+      },
+      "properties": {
+        "name": "Tehran",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3030209,
+          27.1910487
+        ]
+      },
+      "properties": {
+        "name": "Hormoz",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.5458483,
+          29.5887016
+        ]
+      },
+      "properties": {
+        "name": "Shiraz",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.8037084,
+          30.4968479
+        ]
+      },
+      "properties": {
+        "name": "Basra",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.8594657,
+          35.9040455
+        ]
+      },
+      "properties": {
+        "name": "Hatra",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0201557,
+          36.1941386
+        ]
+      },
+      "properties": {
+        "name": "Arbela",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.1088865,
+          36.3356993
+        ]
+      },
+      "properties": {
+        "name": "Mosul-Nineveh",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.1144752,
+          34.2896593
+        ]
+      },
+      "properties": {
+        "name": "Perozshapur",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.461898,
+          34.8049277
+        ]
+      },
+      "properties": {
+        "name": "Ekbatana",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.650432,
+          32.6701531
+        ]
+      },
+      "properties": {
+        "name": "Isfahan",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5160066,
+          33.1142776
+        ]
+      },
+      "properties": {
+        "name": "Ctesiphon",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    }
+  ]
+}
