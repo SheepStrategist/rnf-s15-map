@@ -1566,6 +1566,236 @@
         "marker_type": "city",
         "nation": "Hellas"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.4964, 41.9028]
+      },
+      "properties": {
+        "name": "Rhome",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2681, 40.8518]
+      },
+      "properties": {
+        "name": "Neapolis",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.1900, 45.4642]
+      },
+      "properties": {
+        "name": "Mediolanon",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.3155, 45.4408]
+      },
+      "properties": {
+        "name": "Venetia",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.2035, 44.4184]
+      },
+      "properties": {
+        "name": "Rabeuna",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.9463, 44.4056]
+      },
+      "properties": {
+        "name": "Genoua",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3615, 38.1157]
+      },
+      "properties": {
+        "name": "Panormos",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.2866, 37.0755]
+      },
+      "properties": {
+        "name": "Syrakousai",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2558, 43.7696]
+      },
+      "properties": {
+        "name": "Florentia",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.6869, 45.0703]
+      },
+      "properties": {
+        "name": "Taurinon",
+        "properties": {
+        "name": "Taurinon",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.8719, 41.1171]
+      },
+      "properties": {
+        "name": "Barion",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.2442, 40.4644]
+      },
+      "properties": {
+        "name": "Taras",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.5500, 38.1936]
+      },
+      "properties": {
+        "name": "Messene",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.6448, 38.1144]
+      },
+      "properties": {
+        "name": "Rhegion",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.5189, 43.6158]
+      },
+      "properties": {
+        "name": "Ankon",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.9418, 40.6321]
+      },
+      "properties": {
+        "name": "Brentesion",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.3426, 44.4949]
+      },
+      "properties": {
+        "name": "Bononia",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.7386, 41.9257]
+      },
+      "properties": {
+        "name": "Adiakion",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.5128, 42.1047]
+      },
+      "properties": {
+        "name": "Alalia",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
     }
   ]
 }
