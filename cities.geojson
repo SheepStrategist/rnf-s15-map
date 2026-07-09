@@ -2490,6 +2490,198 @@
         "marker_type": "city",
         "nation": "Hellas"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.6348, 44.1792]
+      },
+      "properties": {
+        "name": "Tomis",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.1025, 44.4323]
+      },
+      "properties": {
+        "name": "Boukourestion",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.5916, 46.7712]
+      },
+      "properties": {
+        "name": "Napoca",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.2272, 45.7489]
+      },
+      "properties": {
+        "name": "Themeswar",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.4131, 43.8563]
+      },
+      "properties": {
+        "name": "Vrhbosna",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.8078, 43.3438]
+      },
+      "properties": {
+        "name": "Mostar",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.2314, 44.1194]
+      },
+      "properties": {
+        "name": "Iadera",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.9819, 45.8150]
+      },
+      "properties": {
+        "name": "Zagrabia",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.5058, 46.0569]
+      },
+      "properties": {
+        "name": "Ljubljana",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.0402, 47.4979]
+      },
+      "properties": {
+        "name": "Buda-Pest",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.6273, 47.5316]
+      },
+      "properties": {
+        "name": "Debrecen",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3738, 48.2082]
+      },
+      "properties": {
+        "name": "Wien",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.4383, 47.0707]
+      },
+      "properties": {
+        "name": "Graz",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.1067, 48.1486]
+      },
+      "properties": {
+        "name": "Bratislava",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.4378, 50.0755]
+      },
+      "properties": {
+        "name": "Praha",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.6068, 49.1951]
+      },
+      "properties": {
+        "name": "Brno",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
     }
   ]
 }
