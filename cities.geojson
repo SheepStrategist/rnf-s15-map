@@ -822,6 +822,198 @@
         "marker_type": "city",
         "nation": "Mongolia"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.200983, 39.084158]
+      },
+      "properties": {
+        "name": "Tianjin",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.614682, 38.914003]
+      },
+      "properties": {
+        "name": "Dalian",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.323544, 43.817071]
+      },
+      "properties": {
+        "name": "Changchun",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.15507, 30.274085]
+      },
+      "properties": {
+        "name": "Hangzhou",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.549792, 29.868336]
+      },
+      "properties": {
+        "name": "Ningbo",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.089425, 24.479834]
+      },
+      "properties": {
+        "name": "Xiamen",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.057865, 22.543096]
+      },
+      "properties": {
+        "name": "Shenzhen",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.1694, 22.3193]
+      },
+      "properties": {
+        "name": "Hong Kong",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.5439, 22.1987]
+      },
+      "properties": {
+        "name": "Macau",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.938814, 28.228209]
+      },
+      "properties": {
+        "name": "Changsha",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.710002, 25.045806]
+      },
+      "properties": {
+        "name": "Kunming",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.366543, 22.817002]
+      },
+      "properties": {
+        "name": "Nanning",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.83417, 36.06138]
+      },
+      "properties": {
+        "name": "Lanzhou",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.74918, 40.84149]
+      },
+      "properties": {
+        "name": "Hohhot",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.312019, 22.627278]
+      },
+      "properties": {
+        "name": "Kaohsiung",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.922497, 49.486721]
+      },
+      "properties": {
+        "name": "Darkhan",
+        "marker_type": "city",
+        "nation": "Mongolia"
+      }
     }
   ]
 }
