@@ -2346,6 +2346,150 @@
         "marker_type": "city",
         "nation": "Hellas"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.6276, 52.1205]
+      },
+      "properties": {
+        "name": "Magdeburg",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0657, 52.3989]
+      },
+      "properties": {
+        "name": "Potsdam",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.7320, 52.3759]
+      },
+      "properties": {
+        "name": "Hannover",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.0768, 49.4521]
+      },
+      "properties": {
+        "name": "Nürnberg",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.0116, 51.4556]
+      },
+      "properties": {
+        "name": "Essen",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.4653, 51.5136]
+      },
+      "properties": {
+        "name": "Dortmund",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.1228, 54.3233]
+      },
+      "properties": {
+        "name": "Kiel",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.1008, 54.0834]
+      },
+      "properties": {
+        "name": "Rostock",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.4697, 51.4416]
+      },
+      "properties": {
+        "name": "Eindhoven",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.5665, 53.2194]
+      },
+      "properties": {
+        "name": "Groningen",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.7174, 51.0543]
+      },
+      "properties": {
+        "name": "Gent",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.2247, 51.2093]
+      },
+      "properties": {
+        "name": "Brugge",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
     }
   ]
 }
