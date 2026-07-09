@@ -2682,6 +2682,162 @@
         "marker_type": "city",
         "nation": "Hellas"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.6014, 47.1585]
+      },
+      "properties": {
+        "name": "Iasium",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.6012, 45.6580]
+      },
+      "properties": {
+        "name": "Stephanopolis",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.4422, 45.3271]
+      },
+      "properties": {
+        "name": "Tarsatica",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.6955, 45.5550]
+      },
+      "properties": {
+        "name": "Mursa",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.1910, 44.7722]
+      },
+      "properties": {
+        "name": "Bania Louka",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.2322, 46.0727]
+      },
+      "properties": {
+        "name": "Sopianae",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.6351, 47.6875]
+      },
+      "properties": {
+        "name": "Arrabona",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.6467, 46.5547]
+      },
+      "properties": {
+        "name": "Maribor",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.0550, 47.8095]
+      },
+      "properties": {
+        "name": "Salzburg",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.2858, 48.3069]
+      },
+      "properties": {
+        "name": "Linz",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.2611, 48.7164]
+      },
+      "properties": {
+        "name": "Košice",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.2820, 49.8209]
+      },
+      "properties": {
+        "name": "Ostrava",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3736, 49.7437]
+      },
+      "properties": {
+        "name": "Plzeň",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
     }
   ]
 }
