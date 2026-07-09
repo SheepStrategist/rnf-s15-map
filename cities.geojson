@@ -1278,6 +1278,294 @@
         "marker_type": "city",
         "nation": "Hellas"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.4297, 37.0745]
+      },
+      "properties": {
+        "name": "Sparte",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.9386, 37.9386]
+      },
+      "properties": {
+        "name": "Korinthos",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.3204, 38.3226]
+      },
+      "properties": {
+        "name": "Thebai",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.7294, 37.6344]
+      },
+      "properties": {
+        "name": "Argos",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.8016, 37.5673]
+      },
+      "properties": {
+        "name": "Nauplion",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.2846, 41.0131]
+      },
+      "properties": {
+        "name": "Philippoi",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.3219, 42.6977]
+      },
+      "properties": {
+        "name": "Serdike",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.9147, 43.2141]
+      },
+      "properties": {
+        "name": "Odessos",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.4626, 42.5048]
+      },
+      "properties": {
+        "name": "Pyrgos",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.4314, 42.0020]
+      },
+      "properties": {
+        "name": "Skoupoi",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.8016, 41.1172]
+      },
+      "properties": {
+        "name": "Lychnidos",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.0944, 42.6507]
+      },
+      "properties": {
+        "name": "Ragousa",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.4828, 43.5369]
+      },
+      "properties": {
+        "name": "Salona",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0325, 40.9910]
+      },
+      "properties": {
+        "name": "Chalkedon",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.1842, 39.1325]
+      },
+      "properties": {
+        "name": "Pergamon",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.4242, 37.0344]
+      },
+      "properties": {
+        "name": "Halikarnassos",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.0403, 38.4883]
+      },
+      "properties": {
+        "name": "Sardeis",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.5206, 39.7767]
+      },
+      "properties": {
+        "name": "Dorylaion",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.4853, 38.7205]
+      },
+      "properties": {
+        "name": "Kaisareia",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.0150, 39.7505]
+      },
+      "properties": {
+        "name": "Sebasteia",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.8333, 40.6500]
+      },
+      "properties": {
+        "name": "Amaseia",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.8951, 36.9164]
+      },
+      "properties": {
+        "name": "Tarsos",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.8847, 40.3842]
+      },
+      "properties": {
+        "name": "Kyzikos",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.5192, 38.3483]
+      },
+      "properties": {
+        "name": "Philadelphia",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
     }
   ]
 }
