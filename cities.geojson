@@ -2838,6 +2838,222 @@
         "marker_type": "city",
         "nation": "Hellas"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.1353, 27.3292]
+      },
+      "properties": {
+        "name": "Mohenjo-daro",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.5714, 23.0225]
+      },
+      "properties": {
+        "name": "Amdavad",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.1257, 23.8493]
+      },
+      "properties": {
+        "name": "Patan",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.6369, 23.2156]
+      },
+      "properties": {
+        "name": "Gandhinagar",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.9235, 24.7474]
+      },
+      "properties": {
+        "name": "Thatta",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.3578, 25.3960]
+      },
+      "properties": {
+        "name": "Hyderabad",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.7592, 27.5295]
+      },
+      "properties": {
+        "name": "Khairpur",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [62.3254, 25.1216]
+      },
+      "properties": {
+        "name": "Gwadar",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.3587, 31.5204]
+      },
+      "properties": {
+        "name": "Lahore",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.1350, 31.4504]
+      },
+      "properties": {
+        "name": "Faisalabad",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.5249, 30.1575]
+      },
+      "properties": {
+        "name": "Multan",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.5249, 34.0151]
+      },
+      "properties": {
+        "name": "Peshawar",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0160, 33.5651]
+      },
+      "properties": {
+        "name": "Rawalpindi",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.6711, 32.0836]
+      },
+      "properties": {
+        "name": "Sargodha",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.0479, 33.6844]
+      },
+      "properties": {
+        "name": "Gandhara",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.8228, 27.7244]
+      },
+      "properties": {
+        "name": "Sukkur",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.3556, 34.7494]
+      },
+      "properties": {
+        "name": "Saidu",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [66.9750, 30.1798]
+      },
+      "properties": {
+        "name": "Quetta",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
     }
   ]
 }
