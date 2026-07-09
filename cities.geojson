@@ -2010,6 +2010,126 @@
         "marker_type": "city",
         "nation": "Hellas"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.3707, 49.1829]
+      },
+      "properties": {
+        "name": "Caen",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.6848, 47.3941]
+      },
+      "properties": {
+        "name": "Tours",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.9085, 47.9030]
+      },
+      "properties": {
+        "name": "Orléans",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.1996, 48.0061]
+      },
+      "properties": {
+        "name": "Le Mans",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.0993, 49.4431]
+      },
+      "properties": {
+        "name": "Rouen",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.2957, 49.8941]
+      },
+      "properties": {
+        "name": "Amiens",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.1757, 49.1193]
+      },
+      "properties": {
+        "name": "Metz",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.1834, 48.6921]
+      },
+      "properties": {
+        "name": "Nancy",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.8055, 43.9493]
+      },
+      "properties": {
+        "name": "Avignon",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.8956, 42.6986]
+      },
+      "properties": {
+        "name": "Perpignan",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
     }
   ]
 }
