@@ -4230,6 +4230,234 @@
         "marker_type": "city",
         "nation": "Arya"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.2357, 30.0444]
+      },
+      "properties": {
+        "name": "Cairo",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.9553, 31.2001]
+      },
+      "properties": {
+        "name": "Alexandria",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.2131, 30.0131]
+      },
+      "properties": {
+        "name": "Giza",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.2842, 31.2653]
+      },
+      "properties": {
+        "name": "Port Said",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5498, 29.9668]
+      },
+      "properties": {
+        "name": "Suez",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.6396, 25.6872]
+      },
+      "properties": {
+        "name": "Luxor",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.1837, 27.1783]
+      },
+      "properties": {
+        "name": "Asyut",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.8998, 24.0889]
+      },
+      "properties": {
+        "name": "Aswan",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.1913, 32.8872]
+      },
+      "properties": {
+        "name": "Tripoli",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.0667, 32.1167]
+      },
+      "properties": {
+        "name": "Benghazi",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.0925, 32.3754]
+      },
+      "properties": {
+        "name": "Misrata",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.9700, 32.0836]
+      },
+      "properties": {
+        "name": "Tobruk",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.4283, 27.0377]
+      },
+      "properties": {
+        "name": "Sabha",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5599, 15.5007]
+      },
+      "properties": {
+        "name": "Khartoum",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4807, 15.6506]
+      },
+      "properties": {
+        "name": "Omdurman",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.2164, 19.6175]
+      },
+      "properties": {
+        "name": "Port Sudan",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.4000, 15.4500]
+      },
+      "properties": {
+        "name": "Kassala",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.4918, 14.4013]
+      },
+      "properties": {
+        "name": "Wad Madani",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.2167, 13.1833]
+      },
+      "properties": {
+        "name": "El Obeid",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
     }
   ]
 }
