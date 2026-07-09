@@ -6,6 +6,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          28.9737479,
+          41.0091879
+        ]
+      },
+      "properties": {
+        "name": "Constantinople",
+        "marker_type": "capital",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           68.8667388,
           36.7180523
         ]
@@ -387,7 +402,7 @@
       },
       "properties": {
         "name": "Krokala",
-        "marker_type": "city",
+        "marker_type": "capital",
         "nation": "Arya"
       }
     },
