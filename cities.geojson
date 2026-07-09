@@ -630,6 +630,198 @@
         "marker_type": "city",
         "nation": "Arya"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.407417, 39.904202]
+      },
+      "properties": {
+        "name": "Beijing",
+        "marker_type": "capital",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.473728, 31.230393]
+      },
+      "properties": {
+        "name": "Shanghai",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.26436, 23.12908]
+      },
+      "properties": {
+        "name": "Guangzhou",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.796877, 32.060255]
+      },
+      "properties": {
+        "name": "Nanjing",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.305469, 30.59276]
+      },
+      "properties": {
+        "name": "Wuhan",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.06651, 30.572269]
+      },
+      "properties": {
+        "name": "Chengdu",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.940178, 34.341568]
+      },
+      "properties": {
+        "name": "Xi'an",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.551556, 29.56301]
+      },
+      "properties": {
+        "name": "Chongqing",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.42944, 41.796767]
+      },
+      "properties": {
+        "name": "Shenyang",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.642423, 45.756195]
+      },
+      "properties": {
+        "name": "Harbin",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [131.885278, 43.119792]
+      },
+      "properties": {
+        "name": "Vladivostok",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.565414, 25.032964]
+      },
+      "properties": {
+        "name": "Taipei",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.30626, 26.075302]
+      },
+      "properties": {
+        "name": "Fuzhou",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.382602, 36.067116]
+      },
+      "properties": {
+        "name": "Qingdao",
+        "marker_type": "city",
+        "nation": "China"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.917315, 47.886399]
+      },
+      "properties": {
+        "name": "Ulaanbaatar",
+        "marker_type": "capital",
+        "nation": "Mongolia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.532583, 48.072558]
+      },
+      "properties": {
+        "name": "Choibalsan",
+        "marker_type": "city",
+        "nation": "Mongolia"
+      }
     }
   ]
 }
