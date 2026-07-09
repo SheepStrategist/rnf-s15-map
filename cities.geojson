@@ -3678,6 +3678,258 @@
         "marker_type": "city",
         "nation": "Arya"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.5089, 15.8497]
+      },
+      "properties": {
+        "name": "Belgaum",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.5681, 13.9299]
+      },
+      "properties": {
+        "name": "Shimoga",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.8560, 12.9141]
+      },
+      "properties": {
+        "name": "Mangalore",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.7804, 11.2588]
+      },
+      "properties": {
+        "name": "Calicut",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.2673, 9.9312]
+      },
+      "properties": {
+        "name": "Kochi",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.9064, 17.6599]
+      },
+      "properties": {
+        "name": "Sholapur",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.4867, 17.3850]
+      },
+      "properties": {
+        "name": "Hyderabad",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.5946, 12.9716]
+      },
+      "properties": {
+        "name": "Bangalore",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.1324, 12.9165]
+      },
+      "properties": {
+        "name": "Vellore",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.6394, 12.2958]
+      },
+      "properties": {
+        "name": "Mysore",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.9558, 11.0168]
+      },
+      "properties": {
+        "name": "Coimbatore",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.1198, 9.9252]
+      },
+      "properties": {
+        "name": "Madurai",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.2185, 17.6868]
+      },
+      "properties": {
+        "name": "Vishakhapatnam",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.6480, 16.5062]
+      },
+      "properties": {
+        "name": "Vijayawada",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.2707, 13.0827]
+      },
+      "properties": {
+        "name": "Chennai",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.1172, 29.6524]
+      },
+      "properties": {
+        "name": "Lhasa",
+        "marker_type": "city",
+        "nation": "Tibet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.8813, 29.2672]
+      },
+      "properties": {
+        "name": "Xigazē",
+        "marker_type": "city",
+        "nation": "Tibet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [94.3616, 29.6548]
+      },
+      "properties": {
+        "name": "Nyingchi",
+        "marker_type": "city",
+        "nation": "Tibet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.7667, 29.2333]
+      },
+      "properties": {
+        "name": "Shannan",
+        "marker_type": "city",
+        "nation": "Tibet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [97.1784, 31.1369]
+      },
+      "properties": {
+        "name": "Qamdo",
+        "marker_type": "city",
+        "nation": "Tibet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [92.0602, 31.4763]
+      },
+      "properties": {
+        "name": "Nagqu",
+        "marker_type": "city",
+        "nation": "Tibet"
+      }
     }
   ]
 }
