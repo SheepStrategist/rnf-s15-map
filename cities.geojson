@@ -3930,6 +3930,306 @@
         "marker_type": "city",
         "nation": "Tibet"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.6753, 24.7136]
+      },
+      "properties": {
+        "name": "Riyadh",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.1728, 21.5433]
+      },
+      "properties": {
+        "name": "Jeddah",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.2708, 25.2048]
+      },
+      "properties": {
+        "name": "Dubai",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.3773, 24.4539]
+      },
+      "properties": {
+        "name": "Abu Dhabi",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.0888, 26.4207]
+      },
+      "properties": {
+        "name": "Dammam",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.6122, 24.4672]
+      },
+      "properties": {
+        "name": "Medina",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.5310, 25.2854]
+      },
+      "properties": {
+        "name": "Doha",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.2075, 15.3694]
+      },
+      "properties": {
+        "name": "Sana'a",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [55.4121, 25.3463]
+      },
+      "properties": {
+        "name": "Sharjah",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.0186, 12.7855]
+      },
+      "properties": {
+        "name": "Aden",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.9783, 29.3759]
+      },
+      "properties": {
+        "name": "Kuwait",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.0206, 13.5794]
+      },
+      "properties": {
+        "name": "Ta'izz",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.4158, 21.2808]
+      },
+      "properties": {
+        "name": "Taif",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42.5053, 18.2164]
+      },
+      "properties": {
+        "name": "Abha",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42.5511, 16.8892]
+      },
+      "properties": {
+        "name": "Jizan",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.5681, 28.3835]
+      },
+      "properties": {
+        "name": "Tabuk",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.6583, 27.0111]
+      },
+      "properties": {
+        "name": "Jubail",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50.5860, 26.2285]
+      },
+      "properties": {
+        "name": "Manama",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [58.4059, 23.5859]
+      },
+      "properties": {
+        "name": "Muscat",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [43.9747, 26.3260]
+      },
+      "properties": {
+        "name": "Buraidah",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.6961, 27.5219]
+      },
+      "properties": {
+        "name": "Hail",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.2064, 29.9697]
+      },
+      "properties": {
+        "name": "Sakakah",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [54.0924, 17.0151]
+      },
+      "properties": {
+        "name": "Salalah",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [56.7468, 24.3461]
+      },
+      "properties": {
+        "name": "Sohar",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.1242, 14.5425]
+      },
+      "properties": {
+        "name": "Mukalla",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
     }
   ]
 }
