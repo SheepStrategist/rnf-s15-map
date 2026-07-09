@@ -3414,6 +3414,270 @@
         "marker_type": "city",
         "nation": "Arya"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.6140, 27.3325]
+      },
+      "properties": {
+        "name": "Gangtok",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.6053, 27.0844]
+      },
+      "properties": {
+        "name": "Itanagar",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [94.9200, 27.4700]
+      },
+      "properties": {
+        "name": "Dibrugarh",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.7362, 26.1445]
+      },
+      "properties": {
+        "name": "Guwahati",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.8833, 25.5788]
+      },
+      "properties": {
+        "name": "Shillong",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [94.1086, 25.6751]
+      },
+      "properties": {
+        "name": "Kohima",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.9368, 24.8170]
+      },
+      "properties": {
+        "name": "Imphal",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.2868, 23.8315]
+      },
+      "properties": {
+        "name": "Agartala",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [92.7176, 23.7307]
+      },
+      "properties": {
+        "name": "Aizawl",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.4005, 23.8818]
+      },
+      "properties": {
+        "name": "Tungi",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.5015, 23.6238]
+      },
+      "properties": {
+        "name": "Nārāyanganj",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [89.2508, 25.7439]
+      },
+      "properties": {
+        "name": "Rangpur",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.4047, 24.7471]
+      },
+      "properties": {
+        "name": "Mymensingh",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.8687, 24.8949]
+      },
+      "properties": {
+        "name": "Sylhet",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.1728, 23.4607]
+      },
+      "properties": {
+        "name": "Comilla",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.7832, 22.3569]
+      },
+      "properties": {
+        "name": "Chittagong",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.9732, 21.4272]
+      },
+      "properties": {
+        "name": "Cox's Bāzār",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.3501, 22.7010]
+      },
+      "properties": {
+        "name": "Barisāl",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.6041, 24.3745]
+      },
+      "properties": {
+        "name": "Rājshāhi",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [89.2137, 23.1697]
+      },
+      "properties": {
+        "name": "Jessore",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [89.5403, 22.8456]
+      },
+      "properties": {
+        "name": "Khulna",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [89.5905, 22.5003]
+      },
+      "properties": {
+        "name": "Mongla",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
     }
   ]
 }
