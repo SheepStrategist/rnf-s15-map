@@ -2130,6 +2130,222 @@
         "marker_type": "city",
         "nation": "Hellas"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.4050, 52.5200]
+      },
+      "properties": {
+        "name": "Berlin",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.9937, 53.5511]
+      },
+      "properties": {
+        "name": "Hamburg",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5820, 48.1351]
+      },
+      "properties": {
+        "name": "München",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.9583, 50.9375]
+      },
+      "properties": {
+        "name": "Köln",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.6821, 50.1109]
+      },
+      "properties": {
+        "name": "Frankfurt am Main",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9.1813, 48.7758]
+      },
+      "properties": {
+        "name": "Stuttgart",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.7735, 51.2277]
+      },
+      "properties": {
+        "name": "Düsseldorf",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.3731, 51.3396]
+      },
+      "properties": {
+        "name": "Leipzig",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.7373, 51.0504]
+      },
+      "properties": {
+        "name": "Dresden",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.8017, 53.0793]
+      },
+      "properties": {
+        "name": "Bremen",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.8952, 52.3702]
+      },
+      "properties": {
+        "name": "Amsterdam",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.4777, 51.9244]
+      },
+      "properties": {
+        "name": "Rotterdam",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.3007, 52.0705]
+      },
+      "properties": {
+        "name": "Den Haag",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.1214, 52.0907]
+      },
+      "properties": {
+        "name": "Utrecht",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.3517, 50.8503]
+      },
+      "properties": {
+        "name": "Brussel",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.4025, 51.2194]
+      },
+      "properties": {
+        "name": "Antwerpen",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.5797, 50.6326]
+      },
+      "properties": {
+        "name": "Liège",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.1319, 49.6117]
+      },
+      "properties": {
+        "name": "Luxembourg",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
     }
   ]
 }
