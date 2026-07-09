@@ -1014,6 +1014,270 @@
         "marker_type": "city",
         "nation": "Mongolia"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.9444, 40.6401]
+      },
+      "properties": {
+        "name": "Thessalonica",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.7275, 37.9838]
+      },
+      "properties": {
+        "name": "Athenae",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.7344, 38.2466]
+      },
+      "properties": {
+        "name": "Patrai",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.1442, 35.3387]
+      },
+      "properties": {
+        "name": "Herakleion",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.4131, 39.6390]
+      },
+      "properties": {
+        "name": "Larisa",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.8597, 39.9334]
+      },
+      "properties": {
+        "name": "Angora",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.7168, 41.0051]
+      },
+      "properties": {
+        "name": "Trebizond",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.1384, 38.4237]
+      },
+      "properties": {
+        "name": "Smyrna",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.2389, 39.9575]
+      },
+      "properties": {
+        "name": "Troy",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.0610, 40.1815]
+      },
+      "properties": {
+        "name": "Prusa",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.5568, 41.6764]
+      },
+      "properties": {
+        "name": "Adrianople",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.7131, 40.4286]
+      },
+      "properties": {
+        "name": "Nicaea",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4833, 37.8667]
+      },
+      "properties": {
+        "name": "Iconium",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.1531, 42.0264]
+      },
+      "properties": {
+        "name": "Sinope",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.7133, 36.8841]
+      },
+      "properties": {
+        "name": "Attalea",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.3414, 37.9409]
+      },
+      "properties": {
+        "name": "Ephesus",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.9167, 40.7667]
+      },
+      "properties": {
+        "name": "Nicomedia",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.7453, 42.1354]
+      },
+      "properties": {
+        "name": "Philippopolis",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.8954, 43.3209]
+      },
+      "properties": {
+        "name": "Naissus",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.4414, 41.3236]
+      },
+      "properties": {
+        "name": "Dyrrhachium",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.4402, 43.5081]
+      },
+      "properties": {
+        "name": "Spalatum",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [20.4489, 44.7872]
+      },
+      "properties": {
+        "name": "Singidunum",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
     }
   ]
 }
