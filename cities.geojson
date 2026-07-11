@@ -6,6 +6,576 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          92.0602,
+          31.4763
+        ]
+      },
+      "properties": {
+        "name": "Nagqu",
+        "marker_type": "city",
+        "nation": "Tibet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8811882,
+          36.3236501
+        ]
+      },
+      "properties": {
+        "name": "Golmud",
+        "marker_type": "city",
+        "nation": "Tibet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.0780927,
+          34.5444627
+        ]
+      },
+      "properties": {
+        "name": "Kargil",
+        "marker_type": "city",
+        "nation": "Tibet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.3007799,
+          35.8235971
+        ]
+      },
+      "properties": {
+        "name": "Gilgit",
+        "marker_type": "city",
+        "nation": "Tibet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.8813,
+          29.2672
+        ]
+      },
+      "properties": {
+        "name": "Xigazē",
+        "marker_type": "city",
+        "nation": "Tibet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4997396,
+          30.5850935
+        ]
+      },
+      "properties": {
+        "name": "Zagazig",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.596074,
+          31.0859172
+        ]
+      },
+      "properties": {
+        "name": "Dikirnis",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.247724,
+          30.7138987
+        ]
+      },
+      "properties": {
+        "name": "Mit Shamr",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1632373,
+          30.9729402
+        ]
+      },
+      "properties": {
+        "name": "Al Mahalla El Kubra",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6394876,
+          31.1284807
+        ]
+      },
+      "properties": {
+        "name": "Dusuk",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1859934,
+          30.4588179
+        ]
+      },
+      "properties": {
+        "name": "Banha",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9394658,
+          31.1089407
+        ]
+      },
+      "properties": {
+        "name": "Kafr Al Shiekh",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4480172,
+          31.0398899
+        ]
+      },
+      "properties": {
+        "name": "Damanhur",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9394373,
+          31.1930998
+        ]
+      },
+      "properties": {
+        "name": "Alexandria",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.95548,
+          30.5481182
+        ]
+      },
+      "properties": {
+        "name": "Heropolis",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3761015,
+          31.0345902
+        ]
+      },
+      "properties": {
+        "name": "El Mansura",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.1581471,
+          36.1983222
+        ]
+      },
+      "properties": {
+        "name": "Aleppo",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3406019,
+          31.9963334
+        ]
+      },
+      "properties": {
+        "name": "Al Najaf",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.2622074,
+          31.0251038
+        ]
+      },
+      "properties": {
+        "name": "Nasiriyah",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.0201557,
+          36.1941386
+        ]
+      },
+      "properties": {
+        "name": "Arbela",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4281704,
+          35.5470818
+        ]
+      },
+      "properties": {
+        "name": "Sulaymaniyah",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5292518,
+          33.1093548
+        ]
+      },
+      "properties": {
+        "name": "Ctesiphon",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.8181194,
+          32.5109157
+        ]
+      },
+      "properties": {
+        "name": "Al Kut",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3829677,
+          33.3251237
+        ]
+      },
+      "properties": {
+        "name": "Baghdad",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.798741,
+          31.1276325
+        ]
+      },
+      "properties": {
+        "name": "El Arish",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.001253,
+          29.5210998
+        ]
+      },
+      "properties": {
+        "name": "Aqaba",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9387694,
+          28.5606071
+        ]
+      },
+      "properties": {
+        "name": "Saint Catherine",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2967582,
+          31.2624865
+        ]
+      },
+      "properties": {
+        "name": "Port Said",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.9927127,
+          30.7803856
+        ]
+      },
+      "properties": {
+        "name": "Tanta",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.8298899,
+          31.4133603
+        ]
+      },
+      "properties": {
+        "name": "Dameitta",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8401082,
+          29.3105112
+        ]
+      },
+      "properties": {
+        "name": "Faiyum",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.756384,
+          28.0858325
+        ]
+      },
+      "properties": {
+        "name": "Al Minya",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5163003,
+          28.4975995
+        ]
+      },
+      "properties": {
+        "name": "Dahab",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2197313,
+          31.7773373
+        ]
+      },
+      "properties": {
+        "name": "Jerusalem",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.7418315,
+          24.2262449
+        ]
+      },
+      "properties": {
+        "name": "Al Ain",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.2467796,
+          26.1866529
+        ]
+      },
+      "properties": {
+        "name": "Khasab",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.6311326,
+          19.6230696
+        ]
+      },
+      "properties": {
+        "name": "Duqm",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.5928131,
+          23.6143251
+        ]
+      },
+      "properties": {
+        "name": "Muscat",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           28.9737479,
           41.0091879
         ]
@@ -141,12 +711,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.2197313,
-          31.7773373
+          35.9205553,
+          31.9492599
         ]
       },
       "properties": {
-        "name": "Jerusalem",
+        "name": "Amman",
         "marker_type": "city",
         "nation": "Arya"
       }
@@ -321,12 +891,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.1581471,
-          36.1983222
+          39.0121491,
+          35.9458056
         ]
       },
       "properties": {
-        "name": "Aleppo",
+        "name": "Ar Raqqa",
         "marker_type": "city",
         "nation": "Arya"
       }
@@ -546,12 +1116,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.0201557,
-          36.1941386
+          44.395162,
+          35.4748159
         ]
       },
       "properties": {
-        "name": "Arbela",
+        "name": "Kirkuk",
         "marker_type": "city",
         "nation": "Arya"
       }
@@ -621,12 +1191,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.5160066,
-          33.1142776
+          44.0232116,
+          32.6045209
         ]
       },
       "properties": {
-        "name": "Ctesiphon",
+        "name": "Karbala",
         "marker_type": "city",
         "nation": "Arya"
       }
@@ -635,7 +1205,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [116.407417, 39.904202]
+        "coordinates": [
+          116.407417,
+          39.904202
+        ]
       },
       "properties": {
         "name": "Beijing",
@@ -647,7 +1220,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.473728, 31.230393]
+        "coordinates": [
+          121.473728,
+          31.230393
+        ]
       },
       "properties": {
         "name": "Shanghai",
@@ -659,7 +1235,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [113.26436, 23.12908]
+        "coordinates": [
+          113.26436,
+          23.12908
+        ]
       },
       "properties": {
         "name": "Guangzhou",
@@ -671,7 +1250,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.796877, 32.060255]
+        "coordinates": [
+          118.796877,
+          32.060255
+        ]
       },
       "properties": {
         "name": "Nanjing",
@@ -683,7 +1265,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [114.305469, 30.59276]
+        "coordinates": [
+          114.305469,
+          30.59276
+        ]
       },
       "properties": {
         "name": "Wuhan",
@@ -695,7 +1280,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [104.06651, 30.572269]
+        "coordinates": [
+          104.06651,
+          30.572269
+        ]
       },
       "properties": {
         "name": "Chengdu",
@@ -707,7 +1295,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [108.940178, 34.341568]
+        "coordinates": [
+          108.940178,
+          34.341568
+        ]
       },
       "properties": {
         "name": "Xi'an",
@@ -719,7 +1310,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [106.551556, 29.56301]
+        "coordinates": [
+          106.551556,
+          29.56301
+        ]
       },
       "properties": {
         "name": "Chongqing",
@@ -731,7 +1325,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [123.42944, 41.796767]
+        "coordinates": [
+          123.42944,
+          41.796767
+        ]
       },
       "properties": {
         "name": "Shenyang",
@@ -743,7 +1340,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [126.642423, 45.756195]
+        "coordinates": [
+          126.642423,
+          45.756195
+        ]
       },
       "properties": {
         "name": "Harbin",
@@ -755,7 +1355,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [131.885278, 43.119792]
+        "coordinates": [
+          131.885278,
+          43.119792
+        ]
       },
       "properties": {
         "name": "Vladivostok",
@@ -767,7 +1370,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.565414, 25.032964]
+        "coordinates": [
+          121.565414,
+          25.032964
+        ]
       },
       "properties": {
         "name": "Taipei",
@@ -779,7 +1385,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [119.30626, 26.075302]
+        "coordinates": [
+          119.30626,
+          26.075302
+        ]
       },
       "properties": {
         "name": "Fuzhou",
@@ -791,7 +1400,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.382602, 36.067116]
+        "coordinates": [
+          120.382602,
+          36.067116
+        ]
       },
       "properties": {
         "name": "Qingdao",
@@ -803,7 +1415,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [106.917315, 47.886399]
+        "coordinates": [
+          106.917315,
+          47.886399
+        ]
       },
       "properties": {
         "name": "Ulaanbaatar",
@@ -815,7 +1430,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [114.532583, 48.072558]
+        "coordinates": [
+          114.532583,
+          48.072558
+        ]
       },
       "properties": {
         "name": "Choibalsan",
@@ -827,7 +1445,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [117.200983, 39.084158]
+        "coordinates": [
+          117.200983,
+          39.084158
+        ]
       },
       "properties": {
         "name": "Tianjin",
@@ -839,7 +1460,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.614682, 38.914003]
+        "coordinates": [
+          121.614682,
+          38.914003
+        ]
       },
       "properties": {
         "name": "Dalian",
@@ -851,7 +1475,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [125.323544, 43.817071]
+        "coordinates": [
+          125.323544,
+          43.817071
+        ]
       },
       "properties": {
         "name": "Changchun",
@@ -863,7 +1490,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.15507, 30.274085]
+        "coordinates": [
+          120.15507,
+          30.274085
+        ]
       },
       "properties": {
         "name": "Hangzhou",
@@ -875,7 +1505,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [121.549792, 29.868336]
+        "coordinates": [
+          121.549792,
+          29.868336
+        ]
       },
       "properties": {
         "name": "Ningbo",
@@ -887,7 +1520,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [118.089425, 24.479834]
+        "coordinates": [
+          118.089425,
+          24.479834
+        ]
       },
       "properties": {
         "name": "Xiamen",
@@ -899,7 +1535,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [114.057865, 22.543096]
+        "coordinates": [
+          114.057865,
+          22.543096
+        ]
       },
       "properties": {
         "name": "Shenzhen",
@@ -911,7 +1550,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [114.1694, 22.3193]
+        "coordinates": [
+          114.1694,
+          22.3193
+        ]
       },
       "properties": {
         "name": "Hong Kong",
@@ -923,7 +1565,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [113.5439, 22.1987]
+        "coordinates": [
+          113.5439,
+          22.1987
+        ]
       },
       "properties": {
         "name": "Macau",
@@ -935,7 +1580,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [112.938814, 28.228209]
+        "coordinates": [
+          112.938814,
+          28.228209
+        ]
       },
       "properties": {
         "name": "Changsha",
@@ -947,7 +1595,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [102.710002, 25.045806]
+        "coordinates": [
+          102.710002,
+          25.045806
+        ]
       },
       "properties": {
         "name": "Kunming",
@@ -959,7 +1610,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [108.366543, 22.817002]
+        "coordinates": [
+          108.366543,
+          22.817002
+        ]
       },
       "properties": {
         "name": "Nanning",
@@ -971,7 +1625,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [103.83417, 36.06138]
+        "coordinates": [
+          103.83417,
+          36.06138
+        ]
       },
       "properties": {
         "name": "Lanzhou",
@@ -983,7 +1640,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [111.74918, 40.84149]
+        "coordinates": [
+          111.74918,
+          40.84149
+        ]
       },
       "properties": {
         "name": "Hohhot",
@@ -995,7 +1655,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [120.312019, 22.627278]
+        "coordinates": [
+          120.312019,
+          22.627278
+        ]
       },
       "properties": {
         "name": "Kaohsiung",
@@ -1007,7 +1670,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [105.922497, 49.486721]
+        "coordinates": [
+          105.922497,
+          49.486721
+        ]
       },
       "properties": {
         "name": "Darkhan",
@@ -1019,7 +1685,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [22.9444, 40.6401]
+        "coordinates": [
+          22.9444,
+          40.6401
+        ]
       },
       "properties": {
         "name": "Thessalonica",
@@ -1031,7 +1700,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [23.7275, 37.9838]
+        "coordinates": [
+          23.7275,
+          37.9838
+        ]
       },
       "properties": {
         "name": "Athenae",
@@ -1043,7 +1715,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.7344, 38.2466]
+        "coordinates": [
+          21.7344,
+          38.2466
+        ]
       },
       "properties": {
         "name": "Patrai",
@@ -1055,7 +1730,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [25.1442, 35.3387]
+        "coordinates": [
+          25.1442,
+          35.3387
+        ]
       },
       "properties": {
         "name": "Herakleion",
@@ -1067,7 +1745,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [22.4131, 39.6390]
+        "coordinates": [
+          22.4131,
+          39.639
+        ]
       },
       "properties": {
         "name": "Larisa",
@@ -1079,7 +1760,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [32.8597, 39.9334]
+        "coordinates": [
+          32.8597,
+          39.9334
+        ]
       },
       "properties": {
         "name": "Angora",
@@ -1091,7 +1775,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.7168, 41.0051]
+        "coordinates": [
+          39.7168,
+          41.0051
+        ]
       },
       "properties": {
         "name": "Trebizond",
@@ -1103,7 +1790,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [27.1384, 38.4237]
+        "coordinates": [
+          27.1384,
+          38.4237
+        ]
       },
       "properties": {
         "name": "Smyrna",
@@ -1115,7 +1805,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [26.2389, 39.9575]
+        "coordinates": [
+          26.2389,
+          39.9575
+        ]
       },
       "properties": {
         "name": "Troy",
@@ -1127,7 +1820,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [29.0610, 40.1815]
+        "coordinates": [
+          29.061,
+          40.1815
+        ]
       },
       "properties": {
         "name": "Prusa",
@@ -1139,7 +1835,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [26.5568, 41.6764]
+        "coordinates": [
+          26.5568,
+          41.6764
+        ]
       },
       "properties": {
         "name": "Adrianople",
@@ -1151,7 +1850,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [29.7131, 40.4286]
+        "coordinates": [
+          29.7131,
+          40.4286
+        ]
       },
       "properties": {
         "name": "Nicaea",
@@ -1163,7 +1865,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [32.4833, 37.8667]
+        "coordinates": [
+          32.4833,
+          37.8667
+        ]
       },
       "properties": {
         "name": "Iconium",
@@ -1175,7 +1880,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [35.1531, 42.0264]
+        "coordinates": [
+          35.1531,
+          42.0264
+        ]
       },
       "properties": {
         "name": "Sinope",
@@ -1187,7 +1895,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [30.7133, 36.8841]
+        "coordinates": [
+          30.7133,
+          36.8841
+        ]
       },
       "properties": {
         "name": "Attalea",
@@ -1199,7 +1910,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [27.3414, 37.9409]
+        "coordinates": [
+          27.3414,
+          37.9409
+        ]
       },
       "properties": {
         "name": "Ephesus",
@@ -1211,7 +1925,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [29.9167, 40.7667]
+        "coordinates": [
+          29.9167,
+          40.7667
+        ]
       },
       "properties": {
         "name": "Nicomedia",
@@ -1223,7 +1940,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [24.7453, 42.1354]
+        "coordinates": [
+          24.7453,
+          42.1354
+        ]
       },
       "properties": {
         "name": "Philippopolis",
@@ -1235,7 +1955,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.8954, 43.3209]
+        "coordinates": [
+          21.8954,
+          43.3209
+        ]
       },
       "properties": {
         "name": "Naissus",
@@ -1247,7 +1970,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [19.4414, 41.3236]
+        "coordinates": [
+          19.4414,
+          41.3236
+        ]
       },
       "properties": {
         "name": "Dyrrhachium",
@@ -1259,7 +1985,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.4402, 43.5081]
+        "coordinates": [
+          16.4402,
+          43.5081
+        ]
       },
       "properties": {
         "name": "Spalatum",
@@ -1271,7 +2000,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.4489, 44.7872]
+        "coordinates": [
+          20.4489,
+          44.7872
+        ]
       },
       "properties": {
         "name": "Singidunum",
@@ -1283,7 +2015,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [22.4297, 37.0745]
+        "coordinates": [
+          22.4297,
+          37.0745
+        ]
       },
       "properties": {
         "name": "Sparte",
@@ -1295,7 +2030,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [22.9386, 37.9386]
+        "coordinates": [
+          22.9386,
+          37.9386
+        ]
       },
       "properties": {
         "name": "Korinthos",
@@ -1307,7 +2045,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [23.3204, 38.3226]
+        "coordinates": [
+          23.3204,
+          38.3226
+        ]
       },
       "properties": {
         "name": "Thebai",
@@ -1319,7 +2060,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [22.7294, 37.6344]
+        "coordinates": [
+          22.7294,
+          37.6344
+        ]
       },
       "properties": {
         "name": "Argos",
@@ -1331,7 +2075,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [22.8016, 37.5673]
+        "coordinates": [
+          22.8016,
+          37.5673
+        ]
       },
       "properties": {
         "name": "Nauplion",
@@ -1343,7 +2090,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [24.2846, 41.0131]
+        "coordinates": [
+          24.2846,
+          41.0131
+        ]
       },
       "properties": {
         "name": "Philippoi",
@@ -1355,7 +2105,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [23.3219, 42.6977]
+        "coordinates": [
+          23.3219,
+          42.6977
+        ]
       },
       "properties": {
         "name": "Serdike",
@@ -1367,7 +2120,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [27.9147, 43.2141]
+        "coordinates": [
+          27.9147,
+          43.2141
+        ]
       },
       "properties": {
         "name": "Odessos",
@@ -1379,7 +2135,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [27.4626, 42.5048]
+        "coordinates": [
+          27.4626,
+          42.5048
+        ]
       },
       "properties": {
         "name": "Pyrgos",
@@ -1391,7 +2150,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.4314, 42.0020]
+        "coordinates": [
+          21.4314,
+          42.002
+        ]
       },
       "properties": {
         "name": "Skoupoi",
@@ -1403,7 +2165,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.8016, 41.1172]
+        "coordinates": [
+          20.8016,
+          41.1172
+        ]
       },
       "properties": {
         "name": "Lychnidos",
@@ -1415,7 +2180,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.0944, 42.6507]
+        "coordinates": [
+          18.0944,
+          42.6507
+        ]
       },
       "properties": {
         "name": "Ragousa",
@@ -1427,7 +2195,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.4828, 43.5369]
+        "coordinates": [
+          16.4828,
+          43.5369
+        ]
       },
       "properties": {
         "name": "Salona",
@@ -1439,7 +2210,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [29.0325, 40.9910]
+        "coordinates": [
+          29.0325,
+          40.991
+        ]
       },
       "properties": {
         "name": "Chalkedon",
@@ -1451,7 +2225,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [27.1842, 39.1325]
+        "coordinates": [
+          27.1842,
+          39.1325
+        ]
       },
       "properties": {
         "name": "Pergamon",
@@ -1463,7 +2240,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [27.4242, 37.0344]
+        "coordinates": [
+          27.4242,
+          37.0344
+        ]
       },
       "properties": {
         "name": "Halikarnassos",
@@ -1475,7 +2255,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [28.0403, 38.4883]
+        "coordinates": [
+          28.0403,
+          38.4883
+        ]
       },
       "properties": {
         "name": "Sardeis",
@@ -1487,7 +2270,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [30.5206, 39.7767]
+        "coordinates": [
+          30.5206,
+          39.7767
+        ]
       },
       "properties": {
         "name": "Dorylaion",
@@ -1499,7 +2285,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [35.4853, 38.7205]
+        "coordinates": [
+          35.4853,
+          38.7205
+        ]
       },
       "properties": {
         "name": "Kaisareia",
@@ -1511,7 +2300,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [37.0150, 39.7505]
+        "coordinates": [
+          37.015,
+          39.7505
+        ]
       },
       "properties": {
         "name": "Sebasteia",
@@ -1523,7 +2315,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [35.8333, 40.6500]
+        "coordinates": [
+          35.8333,
+          40.65
+        ]
       },
       "properties": {
         "name": "Amaseia",
@@ -1535,7 +2330,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [34.8951, 36.9164]
+        "coordinates": [
+          34.8951,
+          36.9164
+        ]
       },
       "properties": {
         "name": "Tarsos",
@@ -1547,7 +2345,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [27.8847, 40.3842]
+        "coordinates": [
+          27.8847,
+          40.3842
+        ]
       },
       "properties": {
         "name": "Kyzikos",
@@ -1559,7 +2360,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [28.5192, 38.3483]
+        "coordinates": [
+          28.5192,
+          38.3483
+        ]
       },
       "properties": {
         "name": "Philadelphia",
@@ -1571,7 +2375,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.4964, 41.9028]
+        "coordinates": [
+          12.4964,
+          41.9028
+        ]
       },
       "properties": {
         "name": "Rhome",
@@ -1583,7 +2390,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.2681, 40.8518]
+        "coordinates": [
+          14.2681,
+          40.8518
+        ]
       },
       "properties": {
         "name": "Neapolis",
@@ -1595,7 +2405,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.1900, 45.4642]
+        "coordinates": [
+          9.19,
+          45.4642
+        ]
       },
       "properties": {
         "name": "Mediolanon",
@@ -1607,7 +2420,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.3155, 45.4408]
+        "coordinates": [
+          12.3155,
+          45.4408
+        ]
       },
       "properties": {
         "name": "Venetia",
@@ -1619,7 +2435,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.2035, 44.4184]
+        "coordinates": [
+          12.2035,
+          44.4184
+        ]
       },
       "properties": {
         "name": "Rabeuna",
@@ -1631,7 +2450,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.9463, 44.4056]
+        "coordinates": [
+          8.9463,
+          44.4056
+        ]
       },
       "properties": {
         "name": "Genoua",
@@ -1643,7 +2465,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.3615, 38.1157]
+        "coordinates": [
+          13.3615,
+          38.1157
+        ]
       },
       "properties": {
         "name": "Panormos",
@@ -1655,7 +2480,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.2866, 37.0755]
+        "coordinates": [
+          15.2866,
+          37.0755
+        ]
       },
       "properties": {
         "name": "Syrakousai",
@@ -1667,7 +2495,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.2558, 43.7696]
+        "coordinates": [
+          11.2558,
+          43.7696
+        ]
       },
       "properties": {
         "name": "Florentia",
@@ -1679,7 +2510,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.6869, 45.0703]
+        "coordinates": [
+          7.6869,
+          45.0703
+        ]
       },
       "properties": {
         "name": "Taurinon",
@@ -1691,7 +2525,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.8719, 41.1171]
+        "coordinates": [
+          16.8719,
+          41.1171
+        ]
       },
       "properties": {
         "name": "Barion",
@@ -1703,7 +2540,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.2442, 40.4644]
+        "coordinates": [
+          17.2442,
+          40.4644
+        ]
       },
       "properties": {
         "name": "Taras",
@@ -1715,7 +2555,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.5500, 38.1936]
+        "coordinates": [
+          15.55,
+          38.1936
+        ]
       },
       "properties": {
         "name": "Messene",
@@ -1727,7 +2570,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.6448, 38.1144]
+        "coordinates": [
+          15.6448,
+          38.1144
+        ]
       },
       "properties": {
         "name": "Rhegion",
@@ -1739,7 +2585,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.5189, 43.6158]
+        "coordinates": [
+          13.5189,
+          43.6158
+        ]
       },
       "properties": {
         "name": "Ankon",
@@ -1751,7 +2600,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.9418, 40.6321]
+        "coordinates": [
+          17.9418,
+          40.6321
+        ]
       },
       "properties": {
         "name": "Brentesion",
@@ -1763,7 +2615,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.3426, 44.4949]
+        "coordinates": [
+          11.3426,
+          44.4949
+        ]
       },
       "properties": {
         "name": "Bononia",
@@ -1775,7 +2630,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.7386, 41.9257]
+        "coordinates": [
+          8.7386,
+          41.9257
+        ]
       },
       "properties": {
         "name": "Adiakion",
@@ -1787,7 +2645,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.5128, 42.1047]
+        "coordinates": [
+          9.5128,
+          42.1047
+        ]
       },
       "properties": {
         "name": "Alalia",
@@ -1799,7 +2660,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.3522, 48.8566]
+        "coordinates": [
+          2.3522,
+          48.8566
+        ]
       },
       "properties": {
         "name": "Paris",
@@ -1811,7 +2675,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.3698, 43.2965]
+        "coordinates": [
+          5.3698,
+          43.2965
+        ]
       },
       "properties": {
         "name": "Marseille",
@@ -1823,7 +2690,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.8357, 45.7640]
+        "coordinates": [
+          4.8357,
+          45.764
+        ]
       },
       "properties": {
         "name": "Lyon",
@@ -1835,7 +2705,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [1.4442, 43.6047]
+        "coordinates": [
+          1.4442,
+          43.6047
+        ]
       },
       "properties": {
         "name": "Toulouse",
@@ -1847,7 +2720,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.2661, 43.7102]
+        "coordinates": [
+          7.2661,
+          43.7102
+        ]
       },
       "properties": {
         "name": "Nice",
@@ -1859,7 +2735,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-1.5536, 47.2184]
+        "coordinates": [
+          -1.5536,
+          47.2184
+        ]
       },
       "properties": {
         "name": "Nantes",
@@ -1871,7 +2750,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.7521, 48.5734]
+        "coordinates": [
+          7.7521,
+          48.5734
+        ]
       },
       "properties": {
         "name": "Strasbourg",
@@ -1883,7 +2765,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.5792, 44.8378]
+        "coordinates": [
+          -0.5792,
+          44.8378
+        ]
       },
       "properties": {
         "name": "Bordeaux",
@@ -1895,7 +2780,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [3.0573, 50.6292]
+        "coordinates": [
+          3.0573,
+          50.6292
+        ]
       },
       "properties": {
         "name": "Lille",
@@ -1907,7 +2795,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-1.6778, 48.1173]
+        "coordinates": [
+          -1.6778,
+          48.1173
+        ]
       },
       "properties": {
         "name": "Rennes",
@@ -1919,7 +2810,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.0333, 49.2583]
+        "coordinates": [
+          4.0333,
+          49.2583
+        ]
       },
       "properties": {
         "name": "Reims",
@@ -1931,7 +2825,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [0.1083, 49.4944]
+        "coordinates": [
+          0.1083,
+          49.4944
+        ]
       },
       "properties": {
         "name": "Le Havre",
@@ -1943,7 +2840,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.9280, 43.1242]
+        "coordinates": [
+          5.928,
+          43.1242
+        ]
       },
       "properties": {
         "name": "Toulon",
@@ -1955,7 +2855,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.7245, 45.1885]
+        "coordinates": [
+          5.7245,
+          45.1885
+        ]
       },
       "properties": {
         "name": "Grenoble",
@@ -1967,7 +2870,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.0415, 47.3220]
+        "coordinates": [
+          5.0415,
+          47.322
+        ]
       },
       "properties": {
         "name": "Dijon",
@@ -1979,7 +2885,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-4.4861, 48.3904]
+        "coordinates": [
+          -4.4861,
+          48.3904
+        ]
       },
       "properties": {
         "name": "Brest",
@@ -1991,7 +2900,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [3.2012, 45.7772]
+        "coordinates": [
+          3.2012,
+          45.7772
+        ]
       },
       "properties": {
         "name": "Clermont-Ferrand",
@@ -2003,7 +2915,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [1.2588, 45.8336]
+        "coordinates": [
+          1.2588,
+          45.8336
+        ]
       },
       "properties": {
         "name": "Limoges",
@@ -2015,7 +2930,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.3707, 49.1829]
+        "coordinates": [
+          -0.3707,
+          49.1829
+        ]
       },
       "properties": {
         "name": "Caen",
@@ -2027,7 +2945,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [0.6848, 47.3941]
+        "coordinates": [
+          0.6848,
+          47.3941
+        ]
       },
       "properties": {
         "name": "Tours",
@@ -2039,7 +2960,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [1.9085, 47.9030]
+        "coordinates": [
+          1.9085,
+          47.903
+        ]
       },
       "properties": {
         "name": "Orléans",
@@ -2051,7 +2975,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [0.1996, 48.0061]
+        "coordinates": [
+          0.1996,
+          48.0061
+        ]
       },
       "properties": {
         "name": "Le Mans",
@@ -2063,7 +2990,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [1.0993, 49.4431]
+        "coordinates": [
+          1.0993,
+          49.4431
+        ]
       },
       "properties": {
         "name": "Rouen",
@@ -2075,7 +3005,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.2957, 49.8941]
+        "coordinates": [
+          2.2957,
+          49.8941
+        ]
       },
       "properties": {
         "name": "Amiens",
@@ -2087,7 +3020,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.1757, 49.1193]
+        "coordinates": [
+          6.1757,
+          49.1193
+        ]
       },
       "properties": {
         "name": "Metz",
@@ -2099,7 +3035,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.1834, 48.6921]
+        "coordinates": [
+          6.1834,
+          48.6921
+        ]
       },
       "properties": {
         "name": "Nancy",
@@ -2111,7 +3050,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.8055, 43.9493]
+        "coordinates": [
+          4.8055,
+          43.9493
+        ]
       },
       "properties": {
         "name": "Avignon",
@@ -2123,7 +3065,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.8956, 42.6986]
+        "coordinates": [
+          2.8956,
+          42.6986
+        ]
       },
       "properties": {
         "name": "Perpignan",
@@ -2135,7 +3080,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.4050, 52.5200]
+        "coordinates": [
+          13.405,
+          52.52
+        ]
       },
       "properties": {
         "name": "Berlin",
@@ -2147,7 +3095,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.9937, 53.5511]
+        "coordinates": [
+          9.9937,
+          53.5511
+        ]
       },
       "properties": {
         "name": "Hamburg",
@@ -2159,7 +3110,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.5820, 48.1351]
+        "coordinates": [
+          11.582,
+          48.1351
+        ]
       },
       "properties": {
         "name": "München",
@@ -2171,7 +3125,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.9583, 50.9375]
+        "coordinates": [
+          6.9583,
+          50.9375
+        ]
       },
       "properties": {
         "name": "Köln",
@@ -2183,7 +3140,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.6821, 50.1109]
+        "coordinates": [
+          8.6821,
+          50.1109
+        ]
       },
       "properties": {
         "name": "Frankfurt am Main",
@@ -2195,7 +3155,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.1813, 48.7758]
+        "coordinates": [
+          9.1813,
+          48.7758
+        ]
       },
       "properties": {
         "name": "Stuttgart",
@@ -2207,7 +3170,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.7735, 51.2277]
+        "coordinates": [
+          6.7735,
+          51.2277
+        ]
       },
       "properties": {
         "name": "Düsseldorf",
@@ -2219,7 +3185,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.3731, 51.3396]
+        "coordinates": [
+          12.3731,
+          51.3396
+        ]
       },
       "properties": {
         "name": "Leipzig",
@@ -2231,7 +3200,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.7373, 51.0504]
+        "coordinates": [
+          13.7373,
+          51.0504
+        ]
       },
       "properties": {
         "name": "Dresden",
@@ -2243,7 +3215,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [8.8017, 53.0793]
+        "coordinates": [
+          8.8017,
+          53.0793
+        ]
       },
       "properties": {
         "name": "Bremen",
@@ -2255,7 +3230,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.8952, 52.3702]
+        "coordinates": [
+          4.8952,
+          52.3702
+        ]
       },
       "properties": {
         "name": "Amsterdam",
@@ -2267,7 +3245,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.4777, 51.9244]
+        "coordinates": [
+          4.4777,
+          51.9244
+        ]
       },
       "properties": {
         "name": "Rotterdam",
@@ -2279,7 +3260,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.3007, 52.0705]
+        "coordinates": [
+          4.3007,
+          52.0705
+        ]
       },
       "properties": {
         "name": "Den Haag",
@@ -2291,7 +3275,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.1214, 52.0907]
+        "coordinates": [
+          5.1214,
+          52.0907
+        ]
       },
       "properties": {
         "name": "Utrecht",
@@ -2303,7 +3290,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.3517, 50.8503]
+        "coordinates": [
+          4.3517,
+          50.8503
+        ]
       },
       "properties": {
         "name": "Brussel",
@@ -2315,7 +3305,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [4.4025, 51.2194]
+        "coordinates": [
+          4.4025,
+          51.2194
+        ]
       },
       "properties": {
         "name": "Antwerpen",
@@ -2327,7 +3320,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.5797, 50.6326]
+        "coordinates": [
+          5.5797,
+          50.6326
+        ]
       },
       "properties": {
         "name": "Liège",
@@ -2339,7 +3335,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.1319, 49.6117]
+        "coordinates": [
+          6.1319,
+          49.6117
+        ]
       },
       "properties": {
         "name": "Luxembourg",
@@ -2351,7 +3350,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.6276, 52.1205]
+        "coordinates": [
+          11.6276,
+          52.1205
+        ]
       },
       "properties": {
         "name": "Magdeburg",
@@ -2363,7 +3365,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.0657, 52.3989]
+        "coordinates": [
+          13.0657,
+          52.3989
+        ]
       },
       "properties": {
         "name": "Potsdam",
@@ -2375,7 +3380,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [9.7320, 52.3759]
+        "coordinates": [
+          9.732,
+          52.3759
+        ]
       },
       "properties": {
         "name": "Hannover",
@@ -2387,7 +3395,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [11.0768, 49.4521]
+        "coordinates": [
+          11.0768,
+          49.4521
+        ]
       },
       "properties": {
         "name": "Nürnberg",
@@ -2399,7 +3410,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.0116, 51.4556]
+        "coordinates": [
+          7.0116,
+          51.4556
+        ]
       },
       "properties": {
         "name": "Essen",
@@ -2411,7 +3425,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [7.4653, 51.5136]
+        "coordinates": [
+          7.4653,
+          51.5136
+        ]
       },
       "properties": {
         "name": "Dortmund",
@@ -2423,7 +3440,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [10.1228, 54.3233]
+        "coordinates": [
+          10.1228,
+          54.3233
+        ]
       },
       "properties": {
         "name": "Kiel",
@@ -2435,7 +3455,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [12.1008, 54.0834]
+        "coordinates": [
+          12.1008,
+          54.0834
+        ]
       },
       "properties": {
         "name": "Rostock",
@@ -2447,7 +3470,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [5.4697, 51.4416]
+        "coordinates": [
+          5.4697,
+          51.4416
+        ]
       },
       "properties": {
         "name": "Eindhoven",
@@ -2459,7 +3485,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [6.5665, 53.2194]
+        "coordinates": [
+          6.5665,
+          53.2194
+        ]
       },
       "properties": {
         "name": "Groningen",
@@ -2471,7 +3500,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [3.7174, 51.0543]
+        "coordinates": [
+          3.7174,
+          51.0543
+        ]
       },
       "properties": {
         "name": "Gent",
@@ -2483,7 +3515,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [3.2247, 51.2093]
+        "coordinates": [
+          3.2247,
+          51.2093
+        ]
       },
       "properties": {
         "name": "Brugge",
@@ -2495,7 +3530,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [28.6348, 44.1792]
+        "coordinates": [
+          28.6348,
+          44.1792
+        ]
       },
       "properties": {
         "name": "Tomis",
@@ -2507,7 +3545,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [26.1025, 44.4323]
+        "coordinates": [
+          26.1025,
+          44.4323
+        ]
       },
       "properties": {
         "name": "Boukourestion",
@@ -2519,7 +3560,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [23.5916, 46.7712]
+        "coordinates": [
+          23.5916,
+          46.7712
+        ]
       },
       "properties": {
         "name": "Napoca",
@@ -2531,7 +3575,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.2272, 45.7489]
+        "coordinates": [
+          21.2272,
+          45.7489
+        ]
       },
       "properties": {
         "name": "Themeswar",
@@ -2543,7 +3590,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.4131, 43.8563]
+        "coordinates": [
+          18.4131,
+          43.8563
+        ]
       },
       "properties": {
         "name": "Vrhbosna",
@@ -2555,7 +3605,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.8078, 43.3438]
+        "coordinates": [
+          17.8078,
+          43.3438
+        ]
       },
       "properties": {
         "name": "Mostar",
@@ -2567,7 +3620,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.2314, 44.1194]
+        "coordinates": [
+          15.2314,
+          44.1194
+        ]
       },
       "properties": {
         "name": "Iadera",
@@ -2579,7 +3635,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.9819, 45.8150]
+        "coordinates": [
+          15.9819,
+          45.815
+        ]
       },
       "properties": {
         "name": "Zagrabia",
@@ -2591,7 +3650,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.5058, 46.0569]
+        "coordinates": [
+          14.5058,
+          46.0569
+        ]
       },
       "properties": {
         "name": "Ljubljana",
@@ -2603,7 +3665,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [19.0402, 47.4979]
+        "coordinates": [
+          19.0402,
+          47.4979
+        ]
       },
       "properties": {
         "name": "Buda-Pest",
@@ -2615,7 +3680,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.6273, 47.5316]
+        "coordinates": [
+          21.6273,
+          47.5316
+        ]
       },
       "properties": {
         "name": "Debrecen",
@@ -2627,7 +3695,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.3738, 48.2082]
+        "coordinates": [
+          16.3738,
+          48.2082
+        ]
       },
       "properties": {
         "name": "Wien",
@@ -2639,7 +3710,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.4383, 47.0707]
+        "coordinates": [
+          15.4383,
+          47.0707
+        ]
       },
       "properties": {
         "name": "Graz",
@@ -2651,7 +3725,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.1067, 48.1486]
+        "coordinates": [
+          17.1067,
+          48.1486
+        ]
       },
       "properties": {
         "name": "Bratislava",
@@ -2663,7 +3740,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.4378, 50.0755]
+        "coordinates": [
+          14.4378,
+          50.0755
+        ]
       },
       "properties": {
         "name": "Praha",
@@ -2675,7 +3755,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [16.6068, 49.1951]
+        "coordinates": [
+          16.6068,
+          49.1951
+        ]
       },
       "properties": {
         "name": "Brno",
@@ -2687,7 +3770,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [27.6014, 47.1585]
+        "coordinates": [
+          27.6014,
+          47.1585
+        ]
       },
       "properties": {
         "name": "Iasium",
@@ -2699,7 +3785,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [25.6012, 45.6580]
+        "coordinates": [
+          25.6012,
+          45.658
+        ]
       },
       "properties": {
         "name": "Stephanopolis",
@@ -2711,7 +3800,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.4422, 45.3271]
+        "coordinates": [
+          14.4422,
+          45.3271
+        ]
       },
       "properties": {
         "name": "Tarsatica",
@@ -2723,7 +3815,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.6955, 45.5550]
+        "coordinates": [
+          18.6955,
+          45.555
+        ]
       },
       "properties": {
         "name": "Mursa",
@@ -2735,7 +3830,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.1910, 44.7722]
+        "coordinates": [
+          17.191,
+          44.7722
+        ]
       },
       "properties": {
         "name": "Bania Louka",
@@ -2747,7 +3845,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.2322, 46.0727]
+        "coordinates": [
+          18.2322,
+          46.0727
+        ]
       },
       "properties": {
         "name": "Sopianae",
@@ -2759,7 +3860,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [17.6351, 47.6875]
+        "coordinates": [
+          17.6351,
+          47.6875
+        ]
       },
       "properties": {
         "name": "Arrabona",
@@ -2771,7 +3875,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.6467, 46.5547]
+        "coordinates": [
+          15.6467,
+          46.5547
+        ]
       },
       "properties": {
         "name": "Maribor",
@@ -2783,7 +3890,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.0550, 47.8095]
+        "coordinates": [
+          13.055,
+          47.8095
+        ]
       },
       "properties": {
         "name": "Salzburg",
@@ -2795,7 +3905,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.2858, 48.3069]
+        "coordinates": [
+          14.2858,
+          48.3069
+        ]
       },
       "properties": {
         "name": "Linz",
@@ -2807,7 +3920,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [21.2611, 48.7164]
+        "coordinates": [
+          21.2611,
+          48.7164
+        ]
       },
       "properties": {
         "name": "Košice",
@@ -2819,7 +3935,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [18.2820, 49.8209]
+        "coordinates": [
+          18.282,
+          49.8209
+        ]
       },
       "properties": {
         "name": "Ostrava",
@@ -2831,7 +3950,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.3736, 49.7437]
+        "coordinates": [
+          13.3736,
+          49.7437
+        ]
       },
       "properties": {
         "name": "Plzeň",
@@ -2843,7 +3965,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [68.1353, 27.3292]
+        "coordinates": [
+          68.1353,
+          27.3292
+        ]
       },
       "properties": {
         "name": "Mohenjo-daro",
@@ -2855,7 +3980,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [72.5714, 23.0225]
+        "coordinates": [
+          72.5714,
+          23.0225
+        ]
       },
       "properties": {
         "name": "Amdavad",
@@ -2867,7 +3995,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [72.1257, 23.8493]
+        "coordinates": [
+          72.1257,
+          23.8493
+        ]
       },
       "properties": {
         "name": "Patan",
@@ -2879,7 +4010,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [72.6369, 23.2156]
+        "coordinates": [
+          72.6369,
+          23.2156
+        ]
       },
       "properties": {
         "name": "Gandhinagar",
@@ -2891,7 +4025,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [67.9235, 24.7474]
+        "coordinates": [
+          67.9235,
+          24.7474
+        ]
       },
       "properties": {
         "name": "Thatta",
@@ -2903,7 +4040,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [68.3578, 25.3960]
+        "coordinates": [
+          68.3578,
+          25.396
+        ]
       },
       "properties": {
         "name": "Hyderabad",
@@ -2915,7 +4055,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [68.7592, 27.5295]
+        "coordinates": [
+          68.7592,
+          27.5295
+        ]
       },
       "properties": {
         "name": "Khairpur",
@@ -2927,7 +4070,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [62.3254, 25.1216]
+        "coordinates": [
+          62.3254,
+          25.1216
+        ]
       },
       "properties": {
         "name": "Gwadar",
@@ -2939,7 +4085,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [74.3587, 31.5204]
+        "coordinates": [
+          74.3587,
+          31.5204
+        ]
       },
       "properties": {
         "name": "Lahore",
@@ -2951,7 +4100,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [73.1350, 31.4504]
+        "coordinates": [
+          73.135,
+          31.4504
+        ]
       },
       "properties": {
         "name": "Faisalabad",
@@ -2963,7 +4115,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [71.5249, 30.1575]
+        "coordinates": [
+          71.5249,
+          30.1575
+        ]
       },
       "properties": {
         "name": "Multan",
@@ -2975,7 +4130,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [71.5249, 34.0151]
+        "coordinates": [
+          71.5249,
+          34.0151
+        ]
       },
       "properties": {
         "name": "Peshawar",
@@ -2987,7 +4145,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [73.0160, 33.5651]
+        "coordinates": [
+          73.016,
+          33.5651
+        ]
       },
       "properties": {
         "name": "Rawalpindi",
@@ -2999,7 +4160,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [72.6711, 32.0836]
+        "coordinates": [
+          72.6711,
+          32.0836
+        ]
       },
       "properties": {
         "name": "Sargodha",
@@ -3011,7 +4175,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [73.0479, 33.6844]
+        "coordinates": [
+          73.0479,
+          33.6844
+        ]
       },
       "properties": {
         "name": "Gandhara",
@@ -3023,7 +4190,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [68.8228, 27.7244]
+        "coordinates": [
+          68.8228,
+          27.7244
+        ]
       },
       "properties": {
         "name": "Sukkur",
@@ -3035,7 +4205,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [72.3556, 34.7494]
+        "coordinates": [
+          72.3556,
+          34.7494
+        ]
       },
       "properties": {
         "name": "Saidu",
@@ -3047,7 +4220,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [66.9750, 30.1798]
+        "coordinates": [
+          66.975,
+          30.1798
+        ]
       },
       "properties": {
         "name": "Quetta",
@@ -3059,7 +4235,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [74.7973, 34.0837]
+        "coordinates": [
+          74.7973,
+          34.0837
+        ]
       },
       "properties": {
         "name": "Srinagar",
@@ -3071,7 +4250,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [74.8570, 32.7266]
+        "coordinates": [
+          74.857,
+          32.7266
+        ]
       },
       "properties": {
         "name": "Jammu",
@@ -3083,7 +4265,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [74.8723, 31.6340]
+        "coordinates": [
+          74.8723,
+          31.634
+        ]
       },
       "properties": {
         "name": "Amritsa",
@@ -3095,7 +4280,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [76.7794, 30.7333]
+        "coordinates": [
+          76.7794,
+          30.7333
+        ]
       },
       "properties": {
         "name": "Chandigarh",
@@ -3107,7 +4295,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.0322, 30.3165]
+        "coordinates": [
+          78.0322,
+          30.3165
+        ]
       },
       "properties": {
         "name": "Dehradun",
@@ -3119,7 +4310,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [73.3119, 28.0229]
+        "coordinates": [
+          73.3119,
+          28.0229
+        ]
       },
       "properties": {
         "name": "Bikaner",
@@ -3131,7 +4325,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [73.0243, 26.2389]
+        "coordinates": [
+          73.0243,
+          26.2389
+        ]
       },
       "properties": {
         "name": "Jodhpur",
@@ -3143,7 +4340,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [69.6669, 23.2420]
+        "coordinates": [
+          69.6669,
+          23.242
+        ]
       },
       "properties": {
         "name": "Bhuj",
@@ -3155,7 +4355,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [70.8022, 22.3039]
+        "coordinates": [
+          70.8022,
+          22.3039
+        ]
       },
       "properties": {
         "name": "Rajkot",
@@ -3167,7 +4370,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [73.1812, 22.3072]
+        "coordinates": [
+          73.1812,
+          22.3072
+        ]
       },
       "properties": {
         "name": "Vadodara",
@@ -3179,7 +4385,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [72.8311, 21.1702]
+        "coordinates": [
+          72.8311,
+          21.1702
+        ]
       },
       "properties": {
         "name": "Surat",
@@ -3191,7 +4400,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [72.8777, 19.0760]
+        "coordinates": [
+          72.8777,
+          19.076
+        ]
       },
       "properties": {
         "name": "Mumbai",
@@ -3203,7 +4415,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [73.8567, 18.5204]
+        "coordinates": [
+          73.8567,
+          18.5204
+        ]
       },
       "properties": {
         "name": "Pune",
@@ -3215,7 +4430,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [73.7898, 19.9975]
+        "coordinates": [
+          73.7898,
+          19.9975
+        ]
       },
       "properties": {
         "name": "Nasik",
@@ -3227,7 +4445,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [75.8577, 22.7196]
+        "coordinates": [
+          75.8577,
+          22.7196
+        ]
       },
       "properties": {
         "name": "Indore",
@@ -3239,7 +4460,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [79.0882, 21.1458]
+        "coordinates": [
+          79.0882,
+          21.1458
+        ]
       },
       "properties": {
         "name": "Nagpur",
@@ -3251,7 +4475,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [75.7873, 26.9124]
+        "coordinates": [
+          75.7873,
+          26.9124
+        ]
       },
       "properties": {
         "name": "Jaipur",
@@ -3263,7 +4490,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [77.2090, 28.6139]
+        "coordinates": [
+          77.209,
+          28.6139
+        ]
       },
       "properties": {
         "name": "Delhi",
@@ -3275,7 +4505,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.1784, 26.2183]
+        "coordinates": [
+          78.1784,
+          26.2183
+        ]
       },
       "properties": {
         "name": "Gwalior",
@@ -3287,7 +4520,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.5685, 25.4484]
+        "coordinates": [
+          78.5685,
+          25.4484
+        ]
       },
       "properties": {
         "name": "Jhansi",
@@ -3299,7 +4535,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [80.9462, 26.8467]
+        "coordinates": [
+          80.9462,
+          26.8467
+        ]
       },
       "properties": {
         "name": "Lucknow",
@@ -3311,7 +4550,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [79.5818, 24.9161]
+        "coordinates": [
+          79.5818,
+          24.9161
+        ]
       },
       "properties": {
         "name": "Chhatarpur",
@@ -3323,7 +4565,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [81.8463, 25.4358]
+        "coordinates": [
+          81.8463,
+          25.4358
+        ]
       },
       "properties": {
         "name": "Allahabad",
@@ -3335,7 +4580,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [85.1376, 25.5941]
+        "coordinates": [
+          85.1376,
+          25.5941
+        ]
       },
       "properties": {
         "name": "Patna",
@@ -3347,7 +4595,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [86.4304, 23.7957]
+        "coordinates": [
+          86.4304,
+          23.7957
+        ]
       },
       "properties": {
         "name": "Dhanba",
@@ -3359,7 +4610,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [85.3094, 23.3441]
+        "coordinates": [
+          85.3094,
+          23.3441
+        ]
       },
       "properties": {
         "name": "Ranchi",
@@ -3371,7 +4625,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [86.2029, 22.8046]
+        "coordinates": [
+          86.2029,
+          22.8046
+        ]
       },
       "properties": {
         "name": "Jamshedpur",
@@ -3383,7 +4640,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [88.3639, 22.5726]
+        "coordinates": [
+          88.3639,
+          22.5726
+        ]
       },
       "properties": {
         "name": "Kolkata",
@@ -3395,7 +4655,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [81.6296, 21.2514]
+        "coordinates": [
+          81.6296,
+          21.2514
+        ]
       },
       "properties": {
         "name": "Raipur",
@@ -3407,7 +4670,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [85.8245, 20.2961]
+        "coordinates": [
+          85.8245,
+          20.2961
+        ]
       },
       "properties": {
         "name": "Bhubaneshwar",
@@ -3419,7 +4685,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [88.6140, 27.3325]
+        "coordinates": [
+          88.614,
+          27.3325
+        ]
       },
       "properties": {
         "name": "Gangtok",
@@ -3431,7 +4700,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [93.6053, 27.0844]
+        "coordinates": [
+          93.6053,
+          27.0844
+        ]
       },
       "properties": {
         "name": "Itanagar",
@@ -3443,7 +4715,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [94.9200, 27.4700]
+        "coordinates": [
+          94.92,
+          27.47
+        ]
       },
       "properties": {
         "name": "Dibrugarh",
@@ -3455,7 +4730,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.7362, 26.1445]
+        "coordinates": [
+          91.7362,
+          26.1445
+        ]
       },
       "properties": {
         "name": "Guwahati",
@@ -3467,7 +4745,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.8833, 25.5788]
+        "coordinates": [
+          91.8833,
+          25.5788
+        ]
       },
       "properties": {
         "name": "Shillong",
@@ -3479,7 +4760,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [94.1086, 25.6751]
+        "coordinates": [
+          94.1086,
+          25.6751
+        ]
       },
       "properties": {
         "name": "Kohima",
@@ -3491,7 +4775,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [93.9368, 24.8170]
+        "coordinates": [
+          93.9368,
+          24.817
+        ]
       },
       "properties": {
         "name": "Imphal",
@@ -3503,7 +4790,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.2868, 23.8315]
+        "coordinates": [
+          91.2868,
+          23.8315
+        ]
       },
       "properties": {
         "name": "Agartala",
@@ -3515,7 +4805,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [92.7176, 23.7307]
+        "coordinates": [
+          92.7176,
+          23.7307
+        ]
       },
       "properties": {
         "name": "Aizawl",
@@ -3527,7 +4820,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [90.4005, 23.8818]
+        "coordinates": [
+          90.4005,
+          23.8818
+        ]
       },
       "properties": {
         "name": "Tungi",
@@ -3539,7 +4835,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [90.5015, 23.6238]
+        "coordinates": [
+          90.5015,
+          23.6238
+        ]
       },
       "properties": {
         "name": "Nārāyanganj",
@@ -3551,7 +4850,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [89.2508, 25.7439]
+        "coordinates": [
+          89.2508,
+          25.7439
+        ]
       },
       "properties": {
         "name": "Rangpur",
@@ -3563,7 +4865,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [90.4047, 24.7471]
+        "coordinates": [
+          90.4047,
+          24.7471
+        ]
       },
       "properties": {
         "name": "Mymensingh",
@@ -3575,7 +4880,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.8687, 24.8949]
+        "coordinates": [
+          91.8687,
+          24.8949
+        ]
       },
       "properties": {
         "name": "Sylhet",
@@ -3587,7 +4895,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.1728, 23.4607]
+        "coordinates": [
+          91.1728,
+          23.4607
+        ]
       },
       "properties": {
         "name": "Comilla",
@@ -3599,7 +4910,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.7832, 22.3569]
+        "coordinates": [
+          91.7832,
+          22.3569
+        ]
       },
       "properties": {
         "name": "Chittagong",
@@ -3611,7 +4925,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.9732, 21.4272]
+        "coordinates": [
+          91.9732,
+          21.4272
+        ]
       },
       "properties": {
         "name": "Cox's Bāzār",
@@ -3623,7 +4940,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [90.3501, 22.7010]
+        "coordinates": [
+          90.3501,
+          22.701
+        ]
       },
       "properties": {
         "name": "Barisāl",
@@ -3635,7 +4955,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [88.6041, 24.3745]
+        "coordinates": [
+          88.6041,
+          24.3745
+        ]
       },
       "properties": {
         "name": "Rājshāhi",
@@ -3647,7 +4970,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [89.2137, 23.1697]
+        "coordinates": [
+          89.2137,
+          23.1697
+        ]
       },
       "properties": {
         "name": "Jessore",
@@ -3659,7 +4985,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [89.5403, 22.8456]
+        "coordinates": [
+          89.5403,
+          22.8456
+        ]
       },
       "properties": {
         "name": "Khulna",
@@ -3671,7 +5000,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [89.5905, 22.5003]
+        "coordinates": [
+          89.5905,
+          22.5003
+        ]
       },
       "properties": {
         "name": "Mongla",
@@ -3683,7 +5015,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [74.5089, 15.8497]
+        "coordinates": [
+          74.5089,
+          15.8497
+        ]
       },
       "properties": {
         "name": "Belgaum",
@@ -3695,7 +5030,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [75.5681, 13.9299]
+        "coordinates": [
+          75.5681,
+          13.9299
+        ]
       },
       "properties": {
         "name": "Shimoga",
@@ -3707,7 +5045,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [74.8560, 12.9141]
+        "coordinates": [
+          74.856,
+          12.9141
+        ]
       },
       "properties": {
         "name": "Mangalore",
@@ -3719,7 +5060,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [75.7804, 11.2588]
+        "coordinates": [
+          75.7804,
+          11.2588
+        ]
       },
       "properties": {
         "name": "Calicut",
@@ -3731,7 +5075,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [76.2673, 9.9312]
+        "coordinates": [
+          76.2673,
+          9.9312
+        ]
       },
       "properties": {
         "name": "Kochi",
@@ -3743,7 +5090,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [75.9064, 17.6599]
+        "coordinates": [
+          75.9064,
+          17.6599
+        ]
       },
       "properties": {
         "name": "Sholapur",
@@ -3755,7 +5105,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.4867, 17.3850]
+        "coordinates": [
+          78.4867,
+          17.385
+        ]
       },
       "properties": {
         "name": "Hyderabad",
@@ -3767,7 +5120,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [77.5946, 12.9716]
+        "coordinates": [
+          77.5946,
+          12.9716
+        ]
       },
       "properties": {
         "name": "Bangalore",
@@ -3779,7 +5135,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [79.1324, 12.9165]
+        "coordinates": [
+          79.1324,
+          12.9165
+        ]
       },
       "properties": {
         "name": "Vellore",
@@ -3791,7 +5150,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [76.6394, 12.2958]
+        "coordinates": [
+          76.6394,
+          12.2958
+        ]
       },
       "properties": {
         "name": "Mysore",
@@ -3803,7 +5165,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [76.9558, 11.0168]
+        "coordinates": [
+          76.9558,
+          11.0168
+        ]
       },
       "properties": {
         "name": "Coimbatore",
@@ -3815,7 +5180,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [78.1198, 9.9252]
+        "coordinates": [
+          78.1198,
+          9.9252
+        ]
       },
       "properties": {
         "name": "Madurai",
@@ -3827,7 +5195,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [83.2185, 17.6868]
+        "coordinates": [
+          83.2185,
+          17.6868
+        ]
       },
       "properties": {
         "name": "Vishakhapatnam",
@@ -3839,7 +5210,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [80.6480, 16.5062]
+        "coordinates": [
+          80.648,
+          16.5062
+        ]
       },
       "properties": {
         "name": "Vijayawada",
@@ -3851,7 +5225,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [80.2707, 13.0827]
+        "coordinates": [
+          80.2707,
+          13.0827
+        ]
       },
       "properties": {
         "name": "Chennai",
@@ -3863,7 +5240,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.1172, 29.6524]
+        "coordinates": [
+          91.1172,
+          29.6524
+        ]
       },
       "properties": {
         "name": "Lhasa",
@@ -3875,10 +5255,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [88.8813, 29.2672]
+        "coordinates": [
+          85.3052535,
+          27.639579
+        ]
       },
       "properties": {
-        "name": "Xigazē",
+        "name": "Kathmandu",
         "marker_type": "city",
         "nation": "Tibet"
       }
@@ -3887,7 +5270,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [94.3616, 29.6548]
+        "coordinates": [
+          94.3616,
+          29.6548
+        ]
       },
       "properties": {
         "name": "Nyingchi",
@@ -3899,7 +5285,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [91.7667, 29.2333]
+        "coordinates": [
+          91.7667,
+          29.2333
+        ]
       },
       "properties": {
         "name": "Shannan",
@@ -3911,7 +5300,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [97.1784, 31.1369]
+        "coordinates": [
+          97.1784,
+          31.1369
+        ]
       },
       "properties": {
         "name": "Qamdo",
@@ -3923,10 +5315,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [92.0602, 31.4763]
+        "coordinates": [
+          80.1812409,
+          32.5583803
+        ]
       },
       "properties": {
-        "name": "Nagqu",
+        "name": "Gar",
         "marker_type": "city",
         "nation": "Tibet"
       }
@@ -3935,7 +5330,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.6753, 24.7136]
+        "coordinates": [
+          46.6753,
+          24.7136
+        ]
       },
       "properties": {
         "name": "Riyadh",
@@ -3947,7 +5345,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.1728, 21.5433]
+        "coordinates": [
+          39.1728,
+          21.5433
+        ]
       },
       "properties": {
         "name": "Jeddah",
@@ -3959,7 +5360,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [55.2708, 25.2048]
+        "coordinates": [
+          55.2708,
+          25.2048
+        ]
       },
       "properties": {
         "name": "Dubai",
@@ -3971,7 +5375,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [54.3773, 24.4539]
+        "coordinates": [
+          54.3773,
+          24.4539
+        ]
       },
       "properties": {
         "name": "Abu Dhabi",
@@ -3983,7 +5390,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [50.0888, 26.4207]
+        "coordinates": [
+          50.0888,
+          26.4207
+        ]
       },
       "properties": {
         "name": "Dammam",
@@ -3995,7 +5405,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.6122, 24.4672]
+        "coordinates": [
+          39.6122,
+          24.4672
+        ]
       },
       "properties": {
         "name": "Medina",
@@ -4007,7 +5420,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [51.5310, 25.2854]
+        "coordinates": [
+          51.531,
+          25.2854
+        ]
       },
       "properties": {
         "name": "Doha",
@@ -4019,7 +5435,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.2075, 15.3694]
+        "coordinates": [
+          44.2075,
+          15.3694
+        ]
       },
       "properties": {
         "name": "Sana'a",
@@ -4031,7 +5450,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [55.4121, 25.3463]
+        "coordinates": [
+          55.4121,
+          25.3463
+        ]
       },
       "properties": {
         "name": "Sharjah",
@@ -4043,7 +5465,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.0186, 12.7855]
+        "coordinates": [
+          45.0186,
+          12.7855
+        ]
       },
       "properties": {
         "name": "Aden",
@@ -4055,7 +5480,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [47.9783, 29.3759]
+        "coordinates": [
+          47.9783,
+          29.3759
+        ]
       },
       "properties": {
         "name": "Kuwait",
@@ -4067,7 +5495,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.0206, 13.5794]
+        "coordinates": [
+          44.0206,
+          13.5794
+        ]
       },
       "properties": {
         "name": "Ta'izz",
@@ -4079,7 +5510,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.4158, 21.2808]
+        "coordinates": [
+          40.4158,
+          21.2808
+        ]
       },
       "properties": {
         "name": "Taif",
@@ -4091,7 +5525,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [42.5053, 18.2164]
+        "coordinates": [
+          42.5053,
+          18.2164
+        ]
       },
       "properties": {
         "name": "Abha",
@@ -4103,7 +5540,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [42.5511, 16.8892]
+        "coordinates": [
+          42.5511,
+          16.8892
+        ]
       },
       "properties": {
         "name": "Jizan",
@@ -4115,7 +5555,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [36.5681, 28.3835]
+        "coordinates": [
+          36.5681,
+          28.3835
+        ]
       },
       "properties": {
         "name": "Tabuk",
@@ -4127,7 +5570,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [49.6583, 27.0111]
+        "coordinates": [
+          49.6583,
+          27.0111
+        ]
       },
       "properties": {
         "name": "Jubail",
@@ -4139,7 +5585,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [50.5860, 26.2285]
+        "coordinates": [
+          50.586,
+          26.2285
+        ]
       },
       "properties": {
         "name": "Manama",
@@ -4151,10 +5600,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [58.4059, 23.5859]
+        "coordinates": [
+          59.5289738,
+          22.5720161
+        ]
       },
       "properties": {
-        "name": "Muscat",
+        "name": "Sur",
         "marker_type": "city",
         "nation": "Arya"
       }
@@ -4163,7 +5615,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.9747, 26.3260]
+        "coordinates": [
+          43.9747,
+          26.326
+        ]
       },
       "properties": {
         "name": "Buraidah",
@@ -4175,7 +5630,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.6961, 27.5219]
+        "coordinates": [
+          41.6961,
+          27.5219
+        ]
       },
       "properties": {
         "name": "Hail",
@@ -4187,7 +5645,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.2064, 29.9697]
+        "coordinates": [
+          40.2064,
+          29.9697
+        ]
       },
       "properties": {
         "name": "Sakakah",
@@ -4199,7 +5660,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [54.0924, 17.0151]
+        "coordinates": [
+          54.0924,
+          17.0151
+        ]
       },
       "properties": {
         "name": "Salalah",
@@ -4211,7 +5675,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [56.7468, 24.3461]
+        "coordinates": [
+          56.7468,
+          24.3461
+        ]
       },
       "properties": {
         "name": "Sohar",
@@ -4223,7 +5690,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [49.1242, 14.5425]
+        "coordinates": [
+          49.1242,
+          14.5425
+        ]
       },
       "properties": {
         "name": "Mukalla",
@@ -4235,7 +5705,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [31.2357, 30.0444]
+        "coordinates": [
+          31.2357,
+          30.0444
+        ]
       },
       "properties": {
         "name": "Cairo",
@@ -4247,10 +5720,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [29.9553, 31.2001]
+        "coordinates": [
+          27.2324605,
+          31.3408764
+        ]
       },
       "properties": {
-        "name": "Alexandria",
+        "name": "Masra Matruh",
         "marker_type": "city",
         "nation": "Arya"
       }
@@ -4259,7 +5735,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [31.2131, 30.0131]
+        "coordinates": [
+          31.2109826,
+          29.9862369
+        ]
       },
       "properties": {
         "name": "Giza",
@@ -4271,7 +5750,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [32.2842, 31.2653]
+        "coordinates": [
+          32.2986359,
+          30.6008651
+        ]
       },
       "properties": {
         "name": "Port Said",
@@ -4283,7 +5765,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [32.5498, 29.9668]
+        "coordinates": [
+          32.5358228,
+          29.9752632
+        ]
       },
       "properties": {
         "name": "Suez",
@@ -4295,7 +5780,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [32.6396, 25.6872]
+        "coordinates": [
+          32.6396,
+          25.6872
+        ]
       },
       "properties": {
         "name": "Luxor",
@@ -4307,7 +5795,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [31.1837, 27.1783]
+        "coordinates": [
+          31.1837,
+          27.1783
+        ]
       },
       "properties": {
         "name": "Asyut",
@@ -4319,7 +5810,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [32.8998, 24.0889]
+        "coordinates": [
+          32.8998,
+          24.0889
+        ]
       },
       "properties": {
         "name": "Aswan",
@@ -4331,7 +5825,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [13.1913, 32.8872]
+        "coordinates": [
+          13.1913,
+          32.8872
+        ]
       },
       "properties": {
         "name": "Tripoli",
@@ -4343,7 +5840,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [20.0667, 32.1167]
+        "coordinates": [
+          20.0667,
+          32.1167
+        ]
       },
       "properties": {
         "name": "Benghazi",
@@ -4355,7 +5855,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [15.0925, 32.3754]
+        "coordinates": [
+          15.0925,
+          32.3754
+        ]
       },
       "properties": {
         "name": "Misrata",
@@ -4367,7 +5870,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [23.9700, 32.0836]
+        "coordinates": [
+          23.97,
+          32.0836
+        ]
       },
       "properties": {
         "name": "Tobruk",
@@ -4379,7 +5885,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [14.4283, 27.0377]
+        "coordinates": [
+          14.4283,
+          27.0377
+        ]
       },
       "properties": {
         "name": "Sabha",
@@ -4391,7 +5900,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [32.5599, 15.5007]
+        "coordinates": [
+          32.5599,
+          15.5007
+        ]
       },
       "properties": {
         "name": "Khartoum",
@@ -4403,7 +5915,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [32.4807, 15.6506]
+        "coordinates": [
+          32.4807,
+          15.6506
+        ]
       },
       "properties": {
         "name": "Omdurman",
@@ -4415,7 +5930,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [37.2164, 19.6175]
+        "coordinates": [
+          37.2164,
+          19.6175
+        ]
       },
       "properties": {
         "name": "Port Sudan",
@@ -4427,7 +5945,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [36.4000, 15.4500]
+        "coordinates": [
+          36.4,
+          15.45
+        ]
       },
       "properties": {
         "name": "Kassala",
@@ -4439,7 +5960,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [33.4918, 14.4013]
+        "coordinates": [
+          33.4918,
+          14.4013
+        ]
       },
       "properties": {
         "name": "Wad Madani",
@@ -4451,7 +5975,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [30.2167, 13.1833]
+        "coordinates": [
+          30.2167,
+          13.1833
+        ]
       },
       "properties": {
         "name": "El Obeid",
