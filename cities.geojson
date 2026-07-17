@@ -6,6 +6,66 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          33.3595222,
+          35.1748221
+        ]
+      },
+      "properties": {
+        "name": "Lefkosia",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.625493,
+          34.9322514
+        ]
+      },
+      "properties": {
+        "name": "Larcana",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0317268,
+          34.6853095
+        ]
+      },
+      "properties": {
+        "name": "Limassol",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8951,
+          36.9164
+        ]
+      },
+      "properties": {
+        "name": "Tarsos",
+        "marker_type": "city",
+        "nation": "Hellas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           37.2122272,
           19.6159683
         ]
@@ -2451,12 +2511,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.8951,
-          36.9164
+          33.9251219,
+          35.1218122
         ]
       },
       "properties": {
-        "name": "Tarsos",
+        "name": "Ammochostos",
         "marker_type": "city",
         "nation": "Hellas"
       }
@@ -12125,7 +12185,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.4361, 33.0933]
+        "coordinates": [
+          44.4361,
+          33.0933
+        ]
       },
       "properties": {
         "name": "Veh-Ardashir",
@@ -12137,7 +12200,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [47.4167, 30.9000]
+        "coordinates": [
+          47.4167,
+          30.9
+        ]
       },
       "properties": {
         "name": "Charax Spasinou",
@@ -12149,7 +12215,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.3922, 35.4681]
+        "coordinates": [
+          44.3922,
+          35.4681
+        ]
       },
       "properties": {
         "name": "Karka d'Beth Slokh",
@@ -12161,7 +12230,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.9811, 34.0125]
+        "coordinates": [
+          44.9811,
+          34.0125
+        ]
       },
       "properties": {
         "name": "Dastagird",
@@ -12173,7 +12245,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.4500, 31.9833]
+        "coordinates": [
+          44.45,
+          31.9833
+        ]
       },
       "properties": {
         "name": "Al-Hira",
@@ -12185,7 +12260,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.2500, 32.5000]
+        "coordinates": [
+          46.25,
+          32.5
+        ]
       },
       "properties": {
         "name": "Kaskar",
@@ -12197,7 +12275,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [47.4500, 30.4000]
+        "coordinates": [
+          47.45,
+          30.4
+        ]
       },
       "properties": {
         "name": "Perat de Maisan",
@@ -12209,7 +12290,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [43.6783, 34.6072]
+        "coordinates": [
+          43.6783,
+          34.6072
+        ]
       },
       "properties": {
         "name": "Tagrit",
@@ -12221,7 +12305,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.6358, 31.3222]
+        "coordinates": [
+          45.6358,
+          31.3222
+        ]
       },
       "properties": {
         "name": "Orchoe",
@@ -12233,7 +12320,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.2197, 37.0703]
+        "coordinates": [
+          41.2197,
+          37.0703
+        ]
       },
       "properties": {
         "name": "Nisibis",
@@ -12245,7 +12335,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.9500, 33.9000]
+        "coordinates": [
+          44.95,
+          33.9
+        ]
       },
       "properties": {
         "name": "Artemita",
@@ -12257,7 +12350,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.3800, 34.0500]
+        "coordinates": [
+          44.38,
+          34.05
+        ]
       },
       "properties": {
         "name": "Opis",
@@ -12269,7 +12365,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.4206, 35.1481]
+        "coordinates": [
+          40.4206,
+          35.1481
+        ]
       },
       "properties": {
         "name": "Haboras",
@@ -12281,7 +12380,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.8167, 35.6833]
+        "coordinates": [
+          39.8167,
+          35.6833
+        ]
       },
       "properties": {
         "name": "Zenobia",
@@ -12293,7 +12395,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.9511, 37.1814]
+        "coordinates": [
+          40.9511,
+          37.1814
+        ]
       },
       "properties": {
         "name": "Dara",
@@ -12305,7 +12410,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [40.2306, 37.9149]
+        "coordinates": [
+          40.2306,
+          37.9149
+        ]
       },
       "properties": {
         "name": "Amida",
@@ -12317,7 +12425,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [38.7913, 37.1583]
+        "coordinates": [
+          38.7913,
+          37.1583
+        ]
       },
       "properties": {
         "name": "Edessa",
@@ -12329,7 +12440,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [39.0298, 36.8617]
+        "coordinates": [
+          39.0298,
+          36.8617
+        ]
       },
       "properties": {
         "name": "Carrhae",
@@ -12341,7 +12455,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [41.5200, 37.9200]
+        "coordinates": [
+          41.52,
+          37.92
+        ]
       },
       "properties": {
         "name": "Arzan",
@@ -12353,7 +12470,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [47.1408, 36.6022]
+        "coordinates": [
+          47.1408,
+          36.6022
+        ]
       },
       "properties": {
         "name": "Ganzak",
@@ -12365,7 +12485,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [45.0761, 37.5527]
+        "coordinates": [
+          45.0761,
+          37.5527
+        ]
       },
       "properties": {
         "name": "Chichast",
@@ -12377,7 +12500,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [48.2916, 38.2514]
+        "coordinates": [
+          48.2916,
+          38.2514
+        ]
       },
       "properties": {
         "name": "Artavil",
@@ -12389,7 +12515,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [44.9519, 38.5501]
+        "coordinates": [
+          44.9519,
+          38.5501
+        ]
       },
       "properties": {
         "name": "Her",
@@ -12401,7 +12530,10 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [46.2403, 37.3917]
+        "coordinates": [
+          46.2403,
+          37.3917
+        ]
       },
       "properties": {
         "name": "Phraaspa",
