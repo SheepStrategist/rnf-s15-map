@@ -3,7 +3,7 @@
   "crs": {
     "type": "name",
     "properties": {
-      "name": "urn:ogc:def:crs:EPSG::3031"
+      "name": "urn:ogc:def:crs:EPSG::4326"
     }
   },
   "features": [
@@ -12,8 +12,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2212984.77,
-          -1149452.12
+          -70.5,
+          -68.6
         ]
       },
       "properties": {
