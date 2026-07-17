@@ -6153,6 +6153,126 @@
         "marker_type": "city",
         "nation": "Arya"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.9511, 37.1814]
+      },
+      "properties": {
+        "name": "Dara",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.2306, 37.9149]
+      },
+      "properties": {
+        "name": "Amida",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.7913, 37.1583]
+      },
+      "properties": {
+        "name": "Edessa",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.0298, 36.8617]
+      },
+      "properties": {
+        "name": "Carrhae",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.5200, 37.9200]
+      },
+      "properties": {
+        "name": "Arzan",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.1408, 36.6022]
+      },
+      "properties": {
+        "name": "Ganzak",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.0761, 37.5527]
+      },
+      "properties": {
+        "name": "Chichast",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.2916, 38.2514]
+      },
+      "properties": {
+        "name": "Artavil",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.9519, 38.5501]
+      },
+      "properties": {
+        "name": "Her",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.2403, 37.3917]
+      },
+      "properties": {
+        "name": "Phraaspa",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
     }
   ]
 }
