@@ -126,21 +126,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.6396,
-          25.6872
-        ]
-      },
-      "properties": {
-        "name": "Luxor",
-        "marker_type": "city",
-        "nation": "Arya"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           57.6311326,
           19.6230696
         ]
@@ -695,10 +680,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          62.873,
-          -67.6027
-        ]
+        "coordinates": [62.873, -67.6027]
       },
       "properties": {
         "name": "Noori Zevar",
