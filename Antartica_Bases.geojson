@@ -1,19 +1,13 @@
 {
   "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:EPSG::4326"
-    }
-  },
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.5,
-          -68.6
+          -68.6,
+          -70.5
         ]
       },
       "properties": {
