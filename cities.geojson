@@ -6464,8 +6464,9 @@
         "name": "Phraaspa",
         "marker_type": "city",
         "nation": "Arya"
-      },
-      {
+      }
+    },
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",
