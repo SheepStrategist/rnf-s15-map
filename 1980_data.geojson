@@ -1555,7 +1555,8 @@
         "stroke-width": 2,
         "fill": "rgba(157, 25, 25, 1)",
         "color": "#9d1919",
-        "name": "Switzerland"
+        "name": "Switzerland",
+        "stroke": "rgba(0, 0, 0, 1)"
       },
       "geometry": {
         "type": "Polygon",
