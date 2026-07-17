@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::3031"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2212984.77,
+          -1149452.12
+        ]
+      },
+      "properties": {
+        "name": "Noori Zevar",
+        "marker_type": "station",
+        "nation": "Arya"
+      }
+    }
+  ]
+}
