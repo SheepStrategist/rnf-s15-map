@@ -680,18 +680,6 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [62.873, -67.6027]
-      },
-      "properties": {
-        "name": "Noori Zevar",
-        "marker_type": "city",
-        "nation": "Arya"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
         "coordinates": [
           58.5928131,
           23.6143251
