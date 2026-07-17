@@ -5985,6 +5985,174 @@
         "marker_type": "city",
         "nation": "Arya"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.4361, 33.0933]
+      },
+      "properties": {
+        "name": "Veh-Ardashir",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.4167, 30.9000]
+      },
+      "properties": {
+        "name": "Charax Spasinou",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.3922, 35.4681]
+      },
+      "properties": {
+        "name": "Karka d'Beth Slokh",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.9811, 34.0125]
+      },
+      "properties": {
+        "name": "Dastagird",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.4500, 31.9833]
+      },
+      "properties": {
+        "name": "Al-Hira",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.2500, 32.5000]
+      },
+      "properties": {
+        "name": "Kaskar",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.4500, 30.4000]
+      },
+      "properties": {
+        "name": "Perat de Maisan",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [43.6783, 34.6072]
+      },
+      "properties": {
+        "name": "Tagrit",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.6358, 31.3222]
+      },
+      "properties": {
+        "name": "Orchoe",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [41.2197, 37.0703]
+      },
+      "properties": {
+        "name": "Nisibis",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.9500, 33.9000]
+      },
+      "properties": {
+        "name": "Artemita",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.3800, 34.0500]
+      },
+      "properties": {
+        "name": "Opis",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.4206, 35.1481]
+      },
+      "properties": {
+        "name": "Haboras",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.8167, 35.6833]
+      },
+      "properties": {
+        "name": "Zenobia",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
     }
   ]
 }
