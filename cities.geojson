@@ -6,6 +6,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          76.2673,
+          9.9312
+        ]
+      },
+      "properties": {
+        "name": "Kochi",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           33.3595222,
           35.1748221
         ]
@@ -5256,12 +5271,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76.2673,
-          9.9312
+          62.873726,
+          -67.602746
         ]
       },
       "properties": {
-        "name": "Kochi",
+        "name": "Noori Zevar",
         "marker_type": "city",
         "nation": "Arya"
       }
