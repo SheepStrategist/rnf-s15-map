@@ -6,6 +6,501 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          9.1899727,
+          36.7164075
+        ]
+      },
+      "properties": {
+        "name": "Beja",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7854206,
+          34.4263129
+        ]
+      },
+      "properties": {
+        "name": "Gafsa",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1762504,
+          35.5652744
+        ]
+      },
+      "properties": {
+        "name": "Batna",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4012069,
+          36.18537
+        ]
+      },
+      "properties": {
+        "name": "Setif",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.679823,
+          32.4896077
+        ]
+      },
+      "properties": {
+        "name": "Ghardaia",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3238401,
+          34.8825441
+        ]
+      },
+      "properties": {
+        "name": "Tlemcen",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.744126,
+          36.8944139
+        ]
+      },
+      "properties": {
+        "name": "Annaba",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.05558,
+          36.7454184
+        ]
+      },
+      "properties": {
+        "name": "Bejaja",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0852389,
+          35.9323057
+        ]
+      },
+      "properties": {
+        "name": "Mostaganem",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3053195,
+          36.5066299
+        ]
+      },
+      "properties": {
+        "name": "Tenes",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6488381,
+          35.7011277
+        ]
+      },
+      "properties": {
+        "name": "Oran",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4340011,
+          36.5896546
+        ]
+      },
+      "properties": {
+        "name": "Tipaza",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1899864,
+          36.6057514
+        ]
+      },
+      "properties": {
+        "name": "Cherchell",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7551875,
+          36.8121007
+        ]
+      },
+      "properties": {
+        "name": "Igilgili",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6201776,
+          36.3572237
+        ]
+      },
+      "properties": {
+        "name": "Cirta",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9080788,
+          36.8701775
+        ]
+      },
+      "properties": {
+        "name": "Skikda",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0338739,
+          36.7714435
+        ]
+      },
+      "properties": {
+        "name": "Algiers",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7205886,
+          34.7279832
+        ]
+      },
+      "properties": {
+        "name": "Sfax",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0493739,
+          35.5067208
+        ]
+      },
+      "properties": {
+        "name": "Mandia",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6259104,
+          35.8281455
+        ]
+      },
+      "properties": {
+        "name": "Hadrumetum",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8708134,
+          37.2694619
+        ]
+      },
+      "properties": {
+        "name": "Bizerte",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1827676,
+          36.7959081
+        ]
+      },
+      "properties": {
+        "name": "Carthage",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6372729,
+          32.7605741
+        ]
+      },
+      "properties": {
+        "name": "Derna",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2225338,
+          30.7521793
+        ]
+      },
+      "properties": {
+        "name": "Ajdabiya",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5780467,
+          31.1949049
+        ]
+      },
+      "properties": {
+        "name": "",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0819645,
+          32.9335602
+        ]
+      },
+      "properties": {
+        "name": "Zuwara",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.266939,
+          32.6505198
+        ]
+      },
+      "properties": {
+        "name": "Khoms",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.97,
+          32.0836
+        ]
+      },
+      "properties": {
+        "name": "Tobruk",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3510693,
+          13.6122004
+        ]
+      },
+      "properties": {
+        "name": "Al Fashir",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.0263066,
+          12.6514392
+        ]
+      },
+      "properties": {
+        "name": "Hadiboh",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2167,
+          13.1833
+        ]
+      },
+      "properties": {
+        "name": "El Obeid",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2167,
+          13.1833
+        ]
+      },
+      "properties": {
+        "name": "El Obeid",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4455515,
+          13.4386224
+        ]
+      },
+      "properties": {
+        "name": "El Geneina",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           67.0604075,
           24.9871967
         ]
@@ -6576,21 +7071,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.1817664,
-          32.8891612
-        ]
-      },
-      "properties": {
-        "name": "Tripoli",
-        "marker_type": "city",
-        "nation": "Arya"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           20.0667,
           32.1167
         ]
@@ -6726,12 +7206,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.2167,
-          13.1833
+          24.8823652,
+          12.0541161
         ]
       },
       "properties": {
-        "name": "El Obeid",
+        "name": "Nyala",
         "marker_type": "city",
         "nation": "West Africa"
       }
@@ -12591,12 +13071,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.97,
-          32.0836
+          21.7504256,
+          32.7704295
         ]
       },
       "properties": {
-        "name": "Tobruk",
+        "name": "Al Bayda",
         "marker_type": "city",
         "nation": "Arya"
       }
@@ -12696,12 +13176,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.2167,
-          13.1833
+          29.7254576,
+          10.9824684
         ]
       },
       "properties": {
-        "name": "El Obeid",
+        "name": "Kadagli",
         "marker_type": "city",
         "nation": "Arya"
       }
