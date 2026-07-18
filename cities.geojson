@@ -6,6 +6,111 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          106.837328,
+          -78.464422
+        ]
+      },
+      "properties": {
+        "name": "Tahmasp Station",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.5239926,
+          -66.2836436
+        ]
+      },
+      "properties": {
+        "name": "Shapur Station",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.581836,
+          -69.004122
+        ]
+      },
+      "properties": {
+        "name": "Ismail Station",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.009724,
+          -66.553122
+        ]
+      },
+      "properties": {
+        "name": "Bahram Station",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.6822801,
+          -77.8397792
+        ]
+      },
+      "properties": {
+        "name": "Ardashir Station",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          -85.05
+        ]
+      },
+      "properties": {
+        "name": "Hormizd South Pole Station",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8770578,
+          -67.6049709
+        ]
+      },
+      "properties": {
+        "name": "Noori Zevar Station",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           76.2673,
           9.9312
         ]
@@ -5271,12 +5376,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          62.873726,
-          -67.602746
+          0,
+          -90
         ]
       },
       "properties": {
-        "name": "Noori Zevar",
+        "name": "Hormizd Station",
         "marker_type": "city",
         "nation": "Arya"
       }
