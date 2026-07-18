@@ -6,6 +6,501 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          67.0604075,
+          24.9871967
+        ]
+      },
+      "properties": {
+        "name": "Shomali Krokola",
+        "marker_type": "capital",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.2084087,
+          24.8951075
+        ]
+      },
+      "properties": {
+        "name": "Malir",
+        "marker_type": "capital",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.1718621,
+          24.966454
+        ]
+      },
+      "properties": {
+        "name": "Amanabad",
+        "marker_type": "capital",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.0954408,
+          24.9052483
+        ]
+      },
+      "properties": {
+        "name": "Shahr-e Nūr",
+        "marker_type": "capital",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.3056508,
+          25.0467383
+        ]
+      },
+      "properties": {
+        "name": "Bahria",
+        "marker_type": "capital",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.0511809,
+          24.8209129
+        ]
+      },
+      "properties": {
+        "name": "Neya Krokala",
+        "marker_type": "capital",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.17944,
+          24.8425524
+        ]
+      },
+      "properties": {
+        "name": "Korangi",
+        "marker_type": "capital",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.995163,
+          24.9063999
+        ]
+      },
+      "properties": {
+        "name": "Shahi Krokala",
+        "marker_type": "capital",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.0781843,
+          30.2905952
+        ]
+      },
+      "properties": {
+        "name": "Kerman",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6957118,
+          27.2000167
+        ]
+      },
+      "properties": {
+        "name": "Iranshahr",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.2200712,
+          32.8719192
+        ]
+      },
+      "properties": {
+        "name": "Birjand",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.3345261,
+          37.4798329
+        ]
+      },
+      "properties": {
+        "name": "Bojnurd",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.4327736,
+          36.8432801
+        ]
+      },
+      "properties": {
+        "name": "Gorgan",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.5869727,
+          37.2691208
+        ]
+      },
+      "properties": {
+        "name": "Rasht",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.6862106,
+          31.3187523
+        ]
+      },
+      "properties": {
+        "name": "Ahwaz",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5742314,
+          30.6694222
+        ]
+      },
+      "properties": {
+        "name": "Yasuj",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.8577783,
+          32.3221958
+        ]
+      },
+      "properties": {
+        "name": "Shahr-e-Kord",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.4150511,
+          33.6353431
+        ]
+      },
+      "properties": {
+        "name": "Ilam",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.3535896,
+          33.4832023
+        ]
+      },
+      "properties": {
+        "name": "Khorramabad",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5150421,
+          34.7981791
+        ]
+      },
+      "properties": {
+        "name": "Hamadan",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.9898759,
+          35.3150336
+        ]
+      },
+      "properties": {
+        "name": "Sanandaj",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.96724,
+          35.25959
+        ]
+      },
+      "properties": {
+        "name": "Hasanabad",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.0084691,
+          36.2726035
+        ]
+      },
+      "properties": {
+        "name": "Qazwin",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.4821204,
+          36.670532
+        ]
+      },
+      "properties": {
+        "name": "Zanjan",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.6770372,
+          32.6578465
+        ]
+      },
+      "properties": {
+        "name": "Isfahan",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.6915197,
+          34.0919884
+        ]
+      },
+      "properties": {
+        "name": "Sultanabad",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.880524,
+          34.6419038
+        ]
+      },
+      "properties": {
+        "name": "Qom",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.493984,
+          31.0234673
+        ]
+      },
+      "properties": {
+        "name": "Zabol",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4428925,
+          33.9871009
+        ]
+      },
+      "properties": {
+        "name": "Kashan",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3682411,
+          31.8995482
+        ]
+      },
+      "properties": {
+        "name": "Yazd",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.2491412,
+          32.1917031
+        ]
+      },
+      "properties": {
+        "name": "Susa",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.8972,
+          36.75296298
+        ]
+      },
+      "properties": {
+        "name": "Balkh",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4344,
+          35.5925
+        ]
+      },
+      "properties": {
+        "name": "Rey",
+        "marker_type": "city",
+        "nation": "Arya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           106.837328,
           -78.464422
         ]
@@ -1236,21 +1731,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          69.1282784,
-          34.5394097
-        ]
-      },
-      "properties": {
-        "name": "Kabul",
-        "marker_type": "city",
-        "nation": "Arya"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           62.234461,
           34.3596676
         ]
@@ -1266,23 +1746,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.558627,
-          24.5515382
-        ]
-      },
-      "properties": {
-        "name": "Krokala",
-        "marker_type": "capital",
-        "nation": "Arya"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          53.0382542,
-          36.5483438
+          53.0376192,
+          36.5515577
         ]
       },
       "properties": {
@@ -1341,8 +1806,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          51.3735395,
-          35.717198
+          51.3857991,
+          35.6903964
         ]
       },
       "properties": {
@@ -1461,27 +1926,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.461898,
-          34.8049277
+          53.3884389,
+          35.5793105
         ]
       },
       "properties": {
-        "name": "Ekbatana",
-        "marker_type": "city",
-        "nation": "Arya"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          51.650432,
-          32.6701531
-        ]
-      },
-      "properties": {
-        "name": "Isfahan",
+        "name": "Semnan",
         "marker_type": "city",
         "nation": "Arya"
       }
@@ -6606,21 +7056,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.2916,
-          38.2514
-        ]
-      },
-      "properties": {
-        "name": "Artavil",
-        "marker_type": "city",
-        "nation": "Arya"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           44.9519,
           38.5501
         ]
@@ -7251,8 +7686,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          69.1282784,
-          34.5394097
+          69.1864619,
+          34.5294432
         ]
       },
       "properties": {
@@ -7281,28 +7716,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          67.558627,
-          24.5515382
+          66.8998596,
+          24.8756136
         ]
       },
       "properties": {
-        "name": "Krokala",
+        "name": "Purana Krokala",
         "marker_type": "capital",
-        "nation": "Arya"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          53.0382542,
-          36.5483438
-        ]
-      },
-      "properties": {
-        "name": "Zadrakarta",
-        "marker_type": "city",
         "nation": "Arya"
       }
     },
@@ -7356,27 +7776,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          51.3735395,
-          35.717198
-        ]
-      },
-      "properties": {
-        "name": "Tehran",
-        "marker_type": "city",
-        "nation": "Arya"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           56.3030209,
           27.1910487
         ]
       },
       "properties": {
-        "name": "Hormoz",
+        "name": "Bandar Abbas",
         "marker_type": "city",
         "nation": "Arya"
       }
@@ -7476,8 +7881,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.461898,
-          34.8049277
+          48.4572067,
+          34.8024186
         ]
       },
       "properties": {
@@ -7491,12 +7896,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          51.650432,
-          32.6701531
+          58.7958,
+          36.2133
         ]
       },
       "properties": {
-        "name": "Isfahan",
+        "name": "Nishapur",
         "marker_type": "city",
         "nation": "Arya"
       }
@@ -12621,8 +13026,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.2916,
-          38.2514
+          48.2993834,
+          38.2459669
         ]
       },
       "properties": {
